@@ -1,0 +1,111 @@
+/* GERAL */
+.hamburguermenu-container {
+    display: none;
+    position: fixed;
+    right: 40px;
+}
+
+/* MENU */
+.menu {
+    position: fixed;
+    top: 0px;
+    right: -255px;
+    width: 250px;
+    height: 100%;
+    background-color: #0a3838;
+    box-shadow: -10px 0 10px -10px rgba(0, 0, 0, 0.3);
+    transition: right 0.3s ease-out;
+    z-index: -1;
+}
+
+.menu.open {
+    right: 0;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--secondary-font);
+    margin-top: 160px;
+}
+
+.menu ul li {
+    list-style: none;
+    color: #fff;
+    padding: 25px;
+    cursor: pointer;
+}
+
+.menu ul li span {
+    font-size: 25px;
+}
+
+.btn-hambur-container {
+    margin-top: 25px;
+}
+
+.btn-hambur-container a {
+    background-color: var(--primary-color);
+    border: 1px solid var(--tertiary-color);
+    border-radius: 11px;
+    color: var(--secondary-color);
+    padding: 14px 19px;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.btn-hambur-background {
+    position: relative;
+    background-color: #7B7B7B;
+    border: 1px solid #000;
+    border-radius: 11px;
+    width: 176px;
+    height: 49px;
+    left: 6px;
+    top: -30px;
+    z-index: -1;
+    transition: .2s;
+}
+
+/* ANIMATION MENU */
+.animationMenu {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 30px;
+}
+
+.animationMenu:before,
+.animationMenu:after,
+.animationMenu div {
+    background: #000;
+    content: "";
+    display: block;
+    height: 4px;
+    border-radius: 3px;
+    margin: 5px 0;
+    transition: 0.5s;
+}
+
+.openIcon:before {
+    transform: translateY(6px) rotate(135deg);
+    background: #f76363;
+}
+
+.openIcon:after {
+    transform: translateY(-12px) rotate(-135deg);
+    background: #f76363;
+}
+
+.openIcon div {
+    transform: scale(0);
+}
+
+
+/* MOBILE */
+@media only screen and (max-width: 500px) {
+    .hamburguermenu-container {
+        display: block;
+    }
+}

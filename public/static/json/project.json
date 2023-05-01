@@ -1,0 +1,68 @@
+[
+    {
+        "id": "Filmes-TMDB",
+        "name": "Filmes-TMDB",
+        "text": "Este é um projeto de Catálogo de filmes do TMDB que fiz usando React.",
+        "image": "/static/images/projects/page/FilmesTmdb.png"
+    },
+    {
+        "id": "GerenciadorProjects",
+        "name": "Gerenciador de Projetos",
+        "text": "Esta aplicação é um gerenciador de projetos para pessoas/empresa. Com ele podemos adicionar um projeto à ser realizado, cada projeto contém nome, orçamento e categoria.",
+        "image": "/static/images/projects/page/GerenciadorProjetos.png"
+    },
+    {
+        "id": "QuizCopa",
+        "name": "Quiz Copa Do Mundo",
+        "text": "Este projeto é um quiz sobre a copa do mundo 2022 feito com React.",
+        "image": "/static/images/projects/page/quizcopa.png"
+    },
+    {
+        "id": "Pokedex",
+        "name": "Pokedex",
+        "text": "Este projeto é uma Pokedex que desenvolvi sozinho. A aplicação se refere a um objeto utilizado no anime 'Pokemon' usado como um catálogo de pokemons.",
+        "image": "/static/images/projects/page/pokedex.png"
+    },
+    {
+        "id": "SiteIphone",
+        "name": "Clone Site Iphone",
+        "text": "Este projeto é um clone da página da Apple sobre o iPhone 13 Contém uma interface de interação para selecionar a cor do iPhone desejado.",
+        "image": "/static/images/projects/page/SiteIphone.png"
+    },
+    {
+        "id": "Portfolio3",
+        "name": "Site Portfólio 3",
+        "text": "O projeto é um site simples de portfólio genérico para colocar informações pessoais, serviços que disponibiliza e para contato.",
+        "image": "/static/images/projects/page/Portfolio3.png"
+    },
+    {
+        "id": "SiteImobiliaria",
+        "name": "Site Imobiliária",
+        "text": "Esta é uma landing page feita para Design de interiores.",
+        "image": "/static/images/projects/page/SiteImob.png"
+    },
+    {
+        "id": "SiteHomePage1",
+        "name": "Site HomePage 1",
+        "text": "Um simples projeto de site com NAV, responsivo a várias telas e com menu hamburguer.",
+        "image": "/static/images/projects/page/SiteHomePage1.png"
+    },
+    {
+        "id": "ToDoReact",
+        "name": "ToDo React",
+        "text": "Esse projeto é uma ToDo List feita com Reactjs. Nela você pode adicionar uma tarefa à lista, marcar como concluída ou remover.",
+        "image": "/static/images/projects/page/ToDoReact.png"
+    },
+    {
+        "id": "TelaLogin1",
+        "name": "Tela de Login 1",
+        "text": "Este projeto é uma página simples de login com tema Dark.",
+        "image": "/static/images/projects/page/TelaLogin1.png"
+    },
+    {
+        "id": "ToDoJS",
+        "name": "ToDo JavaScript",
+        "text": "O projeto é uma To Do list feita em JavaScript.",
+        "image": "/static/images/projects/page/ToDoJS.png"
+    }
+]

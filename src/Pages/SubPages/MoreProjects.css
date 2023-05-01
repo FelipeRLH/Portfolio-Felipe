@@ -1,0 +1,30 @@
+
+/* TÍTULO */
+.title-MoreProjects {
+    text-align: center;
+    margin-bottom: 60px;
+    color: var(--tertiary-color);
+}
+
+.title-MoreProjects h1 {
+    font-size: 60px;
+    margin-bottom: 5px;
+    font-family: var(--primary-font);
+}
+
+.title-MoreProjects p {
+    font-size: 18px;
+    font-family: var(--secondary-font);
+}
+
+
+/* MEDIA QUERYS */
+/* CELULAR */
+@media only screen and (max-width: 500px) {
+
+    /* TÍTULO */
+    .title_projects p {
+        font-size: 13px;
+    }
+
+}

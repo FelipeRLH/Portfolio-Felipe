@@ -1,0 +1,240 @@
+/* BTN */
+.btn-moreabout {
+    margin: 15px 0 0 50px;
+    display: flex;
+    font-size: 20px;
+}
+
+.btn-moreabout a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 14px;
+    background-color: #000;
+    padding: 15px 20px;
+    font-family: var(--primary-font);
+    color: var(--secondary-color);
+    transition: .3s;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-moreabout a:hover {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+}
+
+/* HOME */
+.home-moreabout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.home-moreabout div {
+    width: 550px;
+    text-align: center;
+}
+
+/* text */
+.home-moreabout h1 {
+    font-family: var(--primary-font);
+    font-size: 70px;
+}
+
+.home-moreabout h1 span {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+}
+
+.home-moreabout p {
+    margin-top: 20px;
+    font-family: var(--secondary-font);
+    font-size: 20px;
+}
+
+/* btn */
+.btn-about-home {
+    margin-top: 50px;
+}
+
+.btn-about-home a {
+    gap: 10px;
+    border-radius: 14px;
+    background-color: #000;
+    padding: 20px;
+    font-family: var(--primary-font);
+    color: var(--secondary-color);
+    transition: .3s;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.avatar_hi {
+    width: 300px;
+    height: 300px;
+    margin-top: 170px;
+}
+
+.avatar_Dedo {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 250px;
+}
+
+
+/* TEXT MORE ABOUT */
+.container-text-moreabout {
+    background-color: #d6d6d6;
+    padding: 100px;
+    margin-top: 5rem;
+    clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
+}
+
+.text-moreabout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.text-moreabout h2 {
+    font-family: var(--primary-font);
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.text-moreabout h2 span {
+    background-color: #A790FF;
+    color: var(--secondary-color);
+}
+
+.text-moreabout img {
+    width: 540px;
+}
+
+.text-moreabout p {
+    margin-top: 5rem;
+    width: 400px;
+    text-align: center;
+    font-family: var(--secondary-font);
+}
+
+
+/* SKILLS */
+/* Title */
+.container-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.title-skills h2 {
+    font-family: var(--primary-font);
+    font-size: 60px;
+}
+
+.title-skills p {
+    font-family: var(--secondary-font);
+    font-size: 18px;
+}
+
+/* Text */
+.container-devtools {
+    display: flex;
+    position: relative;
+    margin-top: 30px;
+    padding: 40px 200px;
+    gap: 60px;
+    font-family: var(--primary-font);
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px #00000031;
+}
+
+.container-devtools h3 {
+    margin-top: 15px;
+}
+
+.container-devtools ul li {
+    list-style: none;
+    margin-top: 15px;
+    font-family: var(--secondary-font);
+}
+
+.container-devtools span {
+    width: 3px;
+    height: 340px;
+    background-color: #9797973b;
+}
+
+.pokeballTop {
+    position: absolute;
+    top: -110px;
+    left: -250px;
+    transform: rotate(-60deg);
+    width: 300px;
+}
+
+.pokeballBottom {
+    position: absolute;
+    right: -300px;
+    bottom: -10px;
+    transform: rotate(-60deg);
+    width: 300px;
+}
+
+
+/* SOFTSKILLS */
+.container-softskill-moreabout {
+    margin-top: 13rem;
+    padding: 115px 0 115px 0;
+    background-color: #ffffc8;
+    clip-path: polygon(0 8%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.Title-softskills {
+    display: flex;
+    align-items: center;
+    padding: 0 60px 0 60px;
+    gap: 410px;
+
+}
+
+.Title-softskills h2 {
+    font-family: var(--primary-font);
+    font-size: 50px;
+}
+
+.Title-softskills p {
+    width: 900px;
+    font-family: var(--secondary-font);
+}
+
+.softskills-moreabout {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.item-softskill {
+    width: 340px;
+    height: 180px;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid var(--tertiary-color);
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 0px 10px #000;
+    font-family: var(--secondary-font);
+}
+
+.item-softskill h3 {
+    margin-bottom: 6px;
+    font-family: var(--primary-font);
+}

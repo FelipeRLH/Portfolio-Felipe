@@ -1,0 +1,167 @@
+[
+    {
+        "id": "Filmes-TMDB",
+        "imageVid": "/static/images/projects/detailsProjects/imgVid/FilmesTmdb.png",
+        "name": "Filmes TMDB",
+        "description": "Este é um projeto de Catálogo de filmes que fiz com React usando a API do TMDB. Além de listar os melhores filmes, conta com um buscador, podendo pesquisar qualquer nome e ver detalhes dos filmes como orçamento, receita, duração e etc.",
+        "tecs": [
+            "/static/images/projects/detailsProjects/tecs/html_logo.png",
+            "/static/images/projects/detailsProjects/tecs/css_logo.png",
+            "/static/images/projects/detailsProjects/tecs/javaScript_logo.png",
+            "/static/images/projects/detailsProjects/tecs/react_logo.png"
+        ],
+        "dep": [
+            "React Icons",
+            "React Router"
+        ],
+        "githublink": "https://github.com/FelipeRLH/Filmes-TMDB"
+    },
+    {
+        "id": "GerenciadorProjects",
+        "imageVid": "/static/images/projects/detailsProjects/imgVid/GerenciadorProjetos.png",
+        "name": "Gerenciador de Projetos",
+        "description": "Esta aplicação é um gerenciador de projetos para pessoas/empresa. Com ele podemos adicionar um projeto à ser realizado, cada projeto contém nome, orçamento e categoria. Os projetos podem ser excluídos ou pode editar nome, valor do orçamento e categoria. Ele também adiciona serviços à serem feitos em cada projeto, cada serviço contém nome, custo do serviço e descrição. OBS: O preço do serviço não pode ser maior que o orçamento do projeto.",
+        "tecs": [
+            "/static/images/projects/detailsProjects/tecs/html_logo.png",
+            "/static/images/projects/detailsProjects/tecs/css_logo.png",
+            "/static/images/projects/detailsProjects/tecs/javaScript_logo.png",
+            "/static/images/projects/detailsProjects/tecs/react_logo.png"
+        ],
+        "dep": [
+            "Json-server",
+            "React Icons",
+            "React Router",
+            "uuid"
+        ],
+        "githublink": "https://github.com/FelipeRLH/Gerenciador-de-projetos"
+    },
+    {
+        "id": "QuizCopa",
+        "imageVid": "/static/images/projects/detailsProjects/imgVid/QuizCopa.png",
+        "name": "Quiz Copa Do Mundo",
+        "description": "Este projeto é um quiz sobre a copa do mundo 2022 feito com React. Hora de testar seus conhecimentos e ver o quanto assistiu da Copa Do Mundo 2022.",
+        "tecs": [
+            "/static/images/projects/detailsProjects/tecs/html_logo.png",
+            "/static/images/projects/detailsProjects/tecs/css_logo.png",
+            "/static/images/projects/detailsProjects/tecs/javaScript_logo.png",
+            "/static/images/projects/detailsProjects/tecs/react_logo.png"
+        ],
+        "dep": [],
+        "githublink": "https://github.com/FelipeRLH/Quiz-Copa-2022"
+    },
+    {
+        "id": "Pokedex",
+        "imageVid": "/static/images/projects/detailsProjects/imgVid/Pokedex.png",
+        "name": "Pokedex",
+        "description": "Este projeto é uma Pokedex que desenvolvi sozinho. A aplicação se refere a um objeto utilizado no anime 'Pokemon' usado como um catálogo de pokemons. Pequei a imagem da pokedex no Google imagens e estou desenvolvendo em cima dela. A tela azul do fundo do visor e os Botões eu desenhei no PhotoShop para estilizar quando pressiona-los.",
+        "tecs": [
+            "/static/images/projects/detailsProjects/tecs/html_logo.png",
+            "/static/images/projects/detailsProjects/tecs/css_logo.png",
+            "/static/images/projects/detailsProjects/tecs/javaScript_logo.png"
+        ],
+        "dep": [],
+        "githublink": "https://github.com/FelipeRLH/Pokedex"
+    },
+    {
+        "id": "SiteIphone",
+        "imageVid": "/static/images/projects/detailsProjects/imgVid/SiteIphone.png",
+        "name": "Clone Site Iphone",
+        "description": "Este projeto é um clone da página da Apple sobre o iPhone 13. Contém uma interface de interação para selecionar a cor do iPhone desejado.",
+        "tecs": [
+            "/static/images/projects/detailsProjects/tecs/html_logo.png",
+            "/static/images/projects/detailsProjects/tecs/css_logo.png",
+            "/static/images/projects/detailsProjects/tecs/javaScript_logo.png"
+        ],
+        "dep": [],
+        "githublink": "https: //github.com/FelipeRLH/Clone-iPhone13"
+    },
+    {
+        "id": "Portfolio1",
+        "imageVid": "/static/images/projects/detailsProjects/imgVid/Portfolio1.png",
+        "name": "Site Portfólio 1",
+        "description": "O projeto é um site simples de portfólio genérico para colocar informações pessoais, serviços que disponibiliza e para contato. Ainda não é responsivo para celulares.",
+        "tecs": [
+            "/static/images/projects/detailsProjects/tecs/html_logo.png",
+            "/static/images/projects/detailsProjects/tecs/css_logo.png"
+        ],
+        "dep": [],
+        "agithublink": "https://github.com/FelipeRLH/Portfolio-1-generico"
+    },
+    {
+        "id": "SiteImobiliaria",
+        "imageVid": "/static/images/projects/detailsProjects/imgVid/SiteImob.png",
+        "name": "Site Imobiliária",
+        "description": "Esta é uma landing page feita para Design de interiores.",
+        "tecs": [
+            "/static/images/projects/detailsProjects/tecs/html_logo.png",
+            "/static/images/projects/detailsProjects/tecs/css_logo.png"
+        ],
+        "dep": [],
+        "agithublink": "https://github.com/FelipeRLH/Site-Imobiliaria"
+    },
+    {
+        "id": "SiteHome1",
+        "imageVid": "/static/images/projects/detailsProjects/imgVid/SiteHome1.png",
+        "name": "Site Simples 1",
+        "description": "Um simples projeto de site com NAV, responsivo a várias telas e com menu hamburguer.",
+        "tecs": [
+            "/static/images/projects/detailsProjects/tecs/html_logo.png",
+            "/static/images/projects/detailsProjects/tecs/css_logo.png",
+            "/static/images/projects/detailsProjects/tecs/javaScript_logo.png"
+        ],
+        "dep": [],
+        "githublink": "https: //github.com/FelipeRLH/Site-Home-1"
+    },
+    {
+        "id": "ToDoReact",
+        "imageVid": "/static/images/projects/detailsProjects/imgVid/ToDoReact.png",
+        "name": "ToDo React",
+        "description": "Esse projeto é uma ToDo List feita com Reactjs. Nela você pode adicionar uma tarefa à lista, marcar como concluída ou remover. Os itens são guardados no localStorage, então mesmo atualizando a página os dados ficam armazenados na memória.",
+        "tecs": [
+            "/static/images/projects/detailsProjects/tecs/html_logo.png",
+            "/static/images/projects/detailsProjects/tecs/css_logo.png",
+            "/static/images/projects/detailsProjects/tecs/javaScript_logo.png",
+            "/static/images/projects/detailsProjects/tecs/react_logo.png"
+        ],
+        "dep": [],
+        "githublink": "https://github.com/FelipeRLH/ToDo-React"
+    },
+    {
+        "id": "TelaLogin1",
+        "imageVid": "/static/images/projects/detailsProjects/imgVid/TelaLogin1.png",
+        "name": "Site Dark login",
+        "description": "Este projeto é uma página simples de login com tema Dark.",
+        "tecs": [
+            "/static/images/projects/detailsProjects/tecs/html_logo.png",
+            "/static/images/projects/detailsProjects/tecs/css_logo.png"
+        ],
+        "dep": [],
+        "githublink": "https://github.com/FelipeRLH/Tela-Login-1"
+    },
+    {
+        "id": "ToDoJS",
+        "imageVid": "/static/images/projects/detailsProjects/imgVid/ToDoJS.png",
+        "name": "ToDo JavaScript",
+        "description": "O projeto é uma To Do list feita em JavaScript.",
+        "tecs": [
+            "/static/images/projects/detailsProjects/tecs/html_logo.png",
+            "/static/images/projects/detailsProjects/tecs/css_logo.png",
+            "/static/images/projects/detailsProjects/tecs/javaScript_logo.png"
+        ],
+        "dep": [],
+        "githublink": "https: //github.com/FelipeRLH/ToDoJS"
+    },
+    {
+        "id": "CalculadorAlimentos",
+        "imageVid": "/static/images/projects/detailsProjects/imgVid/CalculadorAlimentos.png",
+        "name": "Calculador de Alimentos",
+        "description": "O projeto é uma aplicação para calcular a quantidade de suprimentos para um evento com base na quantidade de adultos, crianças e duração.",
+        "tecs": [
+            "/static/images/projects/detailsProjects/tecs/html_logo.png",
+            "/static/images/projects/detailsProjects/tecs/css_logo.png",
+            "/static/images/projects/detailsProjects/tecs/javaScript_logo.png"
+        ],
+        "dep": [],
+        "githublink": "https://github.com/FelipeRLH/Calculador-de-Alimentos"
+    }
+]
