@@ -40,6 +40,7 @@ Bem-vindo ao meu portfólio pessoal! Nele, você encontrará todas as informaç�
 
 - npm install react-icons
 - npm install react-router-dom
+- npm install emailJS
 
 # Autor
 
