@@ -15,6 +15,9 @@ Bem-vindo ao meu portfólio pessoal! Nele, você encontrará todas as informaç�
 - JavaScript
 - React
 
+- Figma
+- Photoshop
+
 
 ## Principais Assuntos neste projeto:
 
@@ -43,3 +46,6 @@ Bem-vindo ao meu portfólio pessoal! Nele, você encontrará todas as informaç�
 Felipe Ramalho Alves
 
 https://www.linkedin.com/in/felipe-ramalho-01b601229/
+
+# Site no Ar
+https://portfolio-felipe-brown.vercel.app/
