@@ -81,7 +81,7 @@ function Projects() {
     visibility: [visibilityLeft.project1, visibilityRight.project1],
     title: "Portfólio Felipe",
     img: portfoliofelipe,
-    description: "Este projeto consiste em uma aplicação de ToDo List desenvolvida utilizando a biblioteca React. Com essa aplicação, é possível adicionar tarefas à lista, marcá-las como concluídas ou removê-las da lista. Uma das vantagens dessa aplicação é que as informações inseridas pelo usuário são armazenadas localmente, utilizando o recurso de localStorage. Dessa forma, mesmo após atualizar a página, as informações permanecem salvas na memória do navegador.",
+    description: "Bem-vindo ao meu portfólio pessoal! Nele, você encontrará todas as informações relevantes sobre mim, incluindo minhas habilidades, experiências e projetos. Com uma abordagem mais visual do que um currículo tradicional, este portfólio é uma maneira única e dinâmica de explorar meu trabalho. Fique à vontade para navegar e descobrir mais sobre mim e minhas realizações.",
     tecs: ["HTML", "CSS", "JavaScript", "React", "Figma"],
     links: ["/moreprojects/portfoliofelipe", "https://portfolio-felipe-brown.vercel.app/"]
   }
