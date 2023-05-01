@@ -11,7 +11,7 @@ function ProjectList() {
 
     // FETCH PARA BUSCAR DADOS JSON
     useEffect(() => {
-        fetch('static/json/project.json')
+        fetch('static/json/projectList.json')
             .then((response) => response.json())
             .then(setData)
     }, [])

@@ -1,5 +1,11 @@
 [
     {
+        "id": "portfoliofelipe",
+        "name": "Portfólio Felipe",
+        "text": "Bem-vindo ao meu portfólio pessoal! Nele, você encontrará todas as informações relevantes sobre mim, incluindo minhas habilidades, experiências e projetos.",
+        "image": "/static/images/projects/page/portfoliofelipe.png"
+    },
+    {
         "id": "Filmes-TMDB",
         "name": "Filmes-TMDB",
         "text": "Este é um projeto de Catálogo de filmes do TMDB que fiz usando React.",
@@ -30,12 +36,6 @@
         "image": "/static/images/projects/page/SiteIphone.png"
     },
     {
-        "id": "Portfolio3",
-        "name": "Site Portfólio 3",
-        "text": "O projeto é um site simples de portfólio genérico para colocar informações pessoais, serviços que disponibiliza e para contato.",
-        "image": "/static/images/projects/page/Portfolio3.png"
-    },
-    {
         "id": "SiteImobiliaria",
         "name": "Site Imobiliária",
         "text": "Esta é uma landing page feita para Design de interiores.",
@@ -46,12 +46,6 @@
         "name": "Site HomePage 1",
         "text": "Um simples projeto de site com NAV, responsivo a várias telas e com menu hamburguer.",
         "image": "/static/images/projects/page/SiteHomePage1.png"
-    },
-    {
-        "id": "ToDoReact",
-        "name": "ToDo React",
-        "text": "Esse projeto é uma ToDo List feita com Reactjs. Nela você pode adicionar uma tarefa à lista, marcar como concluída ou remover.",
-        "image": "/static/images/projects/page/ToDoReact.png"
     },
     {
         "id": "TelaLogin1",

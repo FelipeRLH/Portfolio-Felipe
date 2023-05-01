@@ -27,7 +27,7 @@ function Projectsdata({ type, visibility, title, description, tecs, img, links }
                             </div>
                             <div className="links-projects">
                                 <Link to={links[0]}>Criação <BsFillCameraReelsFill /></Link>
-                                <Link to={links[1]}>Ver Demonstração <BsBoxArrowUpRight /></Link>
+                                <Link to={links[1]} target='_blanc'>Ver Demonstração <BsBoxArrowUpRight /></Link>
                             </div>
                         </div>
                     </div>
@@ -48,7 +48,7 @@ function Projectsdata({ type, visibility, title, description, tecs, img, links }
                             </div>
                             <div className="links-projects">
                                 <Link to={links[0]}>Criação <BsFillCameraReelsFill /></Link>
-                                <Link to={links[1]}>Ver Demonstração <BsBoxArrowUpRight /></Link>
+                                <Link to={links[1]} target='_blanc'>Ver Demonstração <BsBoxArrowUpRight /></Link>
                             </div>
                         </div>
                         <div className={`image-project ${visibility[1]}`}>

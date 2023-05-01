@@ -1,9 +1,28 @@
 [
     {
+        "id": "portfoliofelipe",
+        "imageVid": "/static/images/projects/detailsProjects/imgVid/portfoliofelipe.png",
+        "name": "Portfólio Felipe",
+        "description": "Bem-vindo ao meu portfólio pessoal! Nele, você encontrará todas as informações relevantes sobre mim, incluindo minhas habilidades, experiências e projetos. Com uma abordagem mais visual do que um currículo tradicional, este portfólio é uma maneira única e dinâmica de explorar meu trabalho. Fique à vontade para navegar e descobrir mais sobre mim e minhas realizações.",
+        "tecs": [
+            "/static/images/projects/detailsProjects/tecs/html_logo.png",
+            "/static/images/projects/detailsProjects/tecs/css_logo.png",
+            "/static/images/projects/detailsProjects/tecs/javaScript_logo.png",
+            "/static/images/projects/detailsProjects/tecs/react_logo.png",
+            "/static/images/projects/detailsProjects/tecs/figma_logo.png"
+        ],
+        "dep": [
+            "React Icons",
+            "React Router",
+            "emailJS"
+        ],
+        "githublink": "https://github.com/FelipeRLH/Portfolio-Felipe"
+    },
+    {
         "id": "Filmes-TMDB",
         "imageVid": "/static/images/projects/detailsProjects/imgVid/FilmesTmdb.png",
         "name": "Filmes TMDB",
-        "description": "Este é um projeto de Catálogo de filmes que fiz com React usando a API do TMDB. Além de listar os melhores filmes, conta com um buscador, podendo pesquisar qualquer nome e ver detalhes dos filmes como orçamento, receita, duração e etc.",
+        "description": "Este projeto consiste em um catálogo de filmes utilizando a API do TMDB e foi desenvolvido utilizando React. Além de listar os melhores filmes, a aplicação conta com um recurso de busca, permitindo que o usuário pesquise por qualquer nome e obtenha detalhes dos filmes, como orçamento, receita, duração, entre outras informações.",
         "tecs": [
             "/static/images/projects/detailsProjects/tecs/html_logo.png",
             "/static/images/projects/detailsProjects/tecs/css_logo.png",
@@ -20,7 +39,7 @@
         "id": "GerenciadorProjects",
         "imageVid": "/static/images/projects/detailsProjects/imgVid/GerenciadorProjetos.png",
         "name": "Gerenciador de Projetos",
-        "description": "Esta aplicação é um gerenciador de projetos para pessoas/empresa. Com ele podemos adicionar um projeto à ser realizado, cada projeto contém nome, orçamento e categoria. Os projetos podem ser excluídos ou pode editar nome, valor do orçamento e categoria. Ele também adiciona serviços à serem feitos em cada projeto, cada serviço contém nome, custo do serviço e descrição. OBS: O preço do serviço não pode ser maior que o orçamento do projeto.",
+        "description": "Esta aplicação consiste em um gerenciador de projetos para pessoas e empresas. Através dela, é possível adicionar projetos a serem realizados, incluindo informações como nome, orçamento e categoria. É possível excluir ou editar os projetos, alterando nome, valor do orçamento e categoria. Além disso, a aplicação permite adicionar serviços a serem executados em cada projeto, incluindo informações como nome, custo e descrição.",
         "tecs": [
             "/static/images/projects/detailsProjects/tecs/html_logo.png",
             "/static/images/projects/detailsProjects/tecs/css_logo.png",
@@ -39,7 +58,7 @@
         "id": "QuizCopa",
         "imageVid": "/static/images/projects/detailsProjects/imgVid/QuizCopa.png",
         "name": "Quiz Copa Do Mundo",
-        "description": "Este projeto é um quiz sobre a copa do mundo 2022 feito com React. Hora de testar seus conhecimentos e ver o quanto assistiu da Copa Do Mundo 2022.",
+        "description": "Este projeto consiste em um quiz sobre a Copa do Mundo de 2022, desenvolvido utilizando React. É uma ótima oportunidade para testar seus conhecimentos e avaliar o quanto você acompanhou do evento.",
         "tecs": [
             "/static/images/projects/detailsProjects/tecs/html_logo.png",
             "/static/images/projects/detailsProjects/tecs/css_logo.png",
@@ -53,7 +72,7 @@
         "id": "Pokedex",
         "imageVid": "/static/images/projects/detailsProjects/imgVid/Pokedex.png",
         "name": "Pokedex",
-        "description": "Este projeto é uma Pokedex que desenvolvi sozinho. A aplicação se refere a um objeto utilizado no anime 'Pokemon' usado como um catálogo de pokemons. Pequei a imagem da pokedex no Google imagens e estou desenvolvendo em cima dela. A tela azul do fundo do visor e os Botões eu desenhei no PhotoShop para estilizar quando pressiona-los.",
+        "description": "Este projeto é uma Pokedex que eu desenvolvi sozinho. A aplicação se trata de uma ferramenta utilizada no anime 'Pokemon', que funciona como um catálogo de Pokemons. Para o desenvolvimento, utilizei uma imagem da Pokedex obtida através do Google Imagens e a estilizei utilizando o Photoshop para adicionar a tela azul de fundo do visor e os botões.",
         "tecs": [
             "/static/images/projects/detailsProjects/tecs/html_logo.png",
             "/static/images/projects/detailsProjects/tecs/css_logo.png",
@@ -74,18 +93,6 @@
         ],
         "dep": [],
         "githublink": "https: //github.com/FelipeRLH/Clone-iPhone13"
-    },
-    {
-        "id": "Portfolio1",
-        "imageVid": "/static/images/projects/detailsProjects/imgVid/Portfolio1.png",
-        "name": "Site Portfólio 1",
-        "description": "O projeto é um site simples de portfólio genérico para colocar informações pessoais, serviços que disponibiliza e para contato. Ainda não é responsivo para celulares.",
-        "tecs": [
-            "/static/images/projects/detailsProjects/tecs/html_logo.png",
-            "/static/images/projects/detailsProjects/tecs/css_logo.png"
-        ],
-        "dep": [],
-        "agithublink": "https://github.com/FelipeRLH/Portfolio-1-generico"
     },
     {
         "id": "SiteImobiliaria",
@@ -111,20 +118,6 @@
         ],
         "dep": [],
         "githublink": "https: //github.com/FelipeRLH/Site-Home-1"
-    },
-    {
-        "id": "ToDoReact",
-        "imageVid": "/static/images/projects/detailsProjects/imgVid/ToDoReact.png",
-        "name": "ToDo React",
-        "description": "Esse projeto é uma ToDo List feita com Reactjs. Nela você pode adicionar uma tarefa à lista, marcar como concluída ou remover. Os itens são guardados no localStorage, então mesmo atualizando a página os dados ficam armazenados na memória.",
-        "tecs": [
-            "/static/images/projects/detailsProjects/tecs/html_logo.png",
-            "/static/images/projects/detailsProjects/tecs/css_logo.png",
-            "/static/images/projects/detailsProjects/tecs/javaScript_logo.png",
-            "/static/images/projects/detailsProjects/tecs/react_logo.png"
-        ],
-        "dep": [],
-        "githublink": "https://github.com/FelipeRLH/ToDo-React"
     },
     {
         "id": "TelaLogin1",
