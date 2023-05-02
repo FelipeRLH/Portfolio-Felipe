@@ -191,7 +191,7 @@
 /* SOFTSKILLS */
 .container-softskill-moreabout {
     margin-top: 13rem;
-    padding: 115px 0 115px 0;
+    padding: 115px 0;
     background-color: #ffffc8;
     clip-path: polygon(0 8%, 100% 0, 100% 100%, 0% 100%);
 }
@@ -237,4 +237,99 @@
 .item-softskill h3 {
     margin-bottom: 6px;
     font-family: var(--primary-font);
+}
+
+
+/* MOBILE */
+@media only screen and (max-width: 500px) {
+
+    /* HOME */
+    .home-moreabout {
+        margin-top: 20vh;
+    }
+
+    .home-moreabout img {
+        display: none;
+    }
+
+    .home-moreabout div {
+        width: 350px;
+        text-align: center;
+    }
+
+    /* text */
+    .home-moreabout h1 {
+        font-size: 60px;
+    }
+
+
+    /* TEXT MORE ABOUT */
+    .container-text-moreabout {
+        margin-top: 13rem;
+    }
+
+    .text-moreabout {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 0px;
+    }
+
+    .text-moreabout h2 {
+        font-size: 40px;
+    }
+
+    .text-moreabout img {
+        width: 320px;
+    }
+
+    .text-moreabout p {
+        width: 320px;
+    }
+
+
+    /* SKILLS */
+    /* Text */
+    .container-devtools {
+        padding: 40px 8px;
+        gap: 15px;
+    }
+
+    .pokeballTop {
+        top: -230px;
+        left: -10px;
+        transform: rotate(-20deg);
+        width: 100px;
+    }
+
+    .pokeballBottom {
+        right: -15px;
+        bottom: -80px;
+        transform: rotate(-20deg);
+        width: 100px;
+    }
+
+
+    /* SOFTSKILLS */
+    .container-softskill-moreabout {
+        padding: 115px 0;
+        clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .Title-softskills {
+        padding: 0 20px;
+    }
+
+    .Title-softskills p {
+        display: none;
+    }
+
+    .softskills-moreabout {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item-softskill {
+        width: 330px;
+    }
 }

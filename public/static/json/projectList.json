@@ -18,6 +18,12 @@
         "image": "/static/images/projects/page/GerenciadorProjetos.png"
     },
     {
+        "id": "Siteportfolio1",
+        "name": "Site Portfólio 1",
+        "text": "Este projeto é um site portfólio que eu desenvolvi utilizando React e Figma para o design.",
+        "image": "/static/images/projects/page/Siteportfolio1.png"
+    },
+    {
         "id": "QuizCopa",
         "name": "Quiz Copa Do Mundo",
         "text": "Este projeto é um quiz sobre a copa do mundo 2022 feito com React.",
@@ -58,5 +64,11 @@
         "name": "ToDo JavaScript",
         "text": "O projeto é uma To Do list feita em JavaScript.",
         "image": "/static/images/projects/page/ToDoJS.png"
+    },
+    {
+        "id": "ToDoReact",
+        "name": "ToDo React",
+        "text": "Esse projeto é uma ToDo List feita com Reactjs.",
+        "image": "/static/images/projects/page/ToDoReact.png"
     }
 ]

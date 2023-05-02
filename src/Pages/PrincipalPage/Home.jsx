@@ -54,7 +54,6 @@ function Home() {
             <Navbar />
 
             <div className='container-home'>
-
                 <div className='container-text-home'>
                     <p className='greetings'>
                         Olá, eu sou <span>Felipe</span>.

@@ -55,6 +55,25 @@
         "githublink": "https://github.com/FelipeRLH/Gerenciador-de-projetos"
     },
     {
+        "id": "Siteportfolio1",
+        "imageVid": "/static/images/projects/detailsProjects/imgVid/Siteportfolio1.png",
+        "name": "Site Portfólio 1",
+        "description": "Este projeto é um site portfólio que eu desenvolvi utilizando React e Figma para o design. Ele apresenta uma interface atrativa com animações e diversas funcionalidades que incluem rolagem de página via barra de navegação, formulário de contato com envio de email através da biblioteca emailJS, links de navegação para outros projetos, entre outras.",
+        "tecs": [
+            "/static/images/projects/detailsProjects/tecs/html_logo.png",
+            "/static/images/projects/detailsProjects/tecs/css_logo.png",
+            "/static/images/projects/detailsProjects/tecs/javaScript_logo.png",
+            "/static/images/projects/detailsProjects/tecs/react_logo.png",
+            "/static/images/projects/detailsProjects/tecs/figma_logo.png"
+        ],
+        "dep": [
+            "React Icons",
+            "React Router",
+            "emailJS"
+        ],
+        "githublink": "https://github.com/FelipeRLH/Site-Portfolio-1"
+    },
+    {
         "id": "QuizCopa",
         "imageVid": "/static/images/projects/detailsProjects/imgVid/QuizCopa.png",
         "name": "Quiz Copa Do Mundo",
@@ -145,16 +164,17 @@
         "githublink": "https: //github.com/FelipeRLH/ToDoJS"
     },
     {
-        "id": "CalculadorAlimentos",
-        "imageVid": "/static/images/projects/detailsProjects/imgVid/CalculadorAlimentos.png",
-        "name": "Calculador de Alimentos",
-        "description": "O projeto é uma aplicação para calcular a quantidade de suprimentos para um evento com base na quantidade de adultos, crianças e duração.",
+        "id": "ToDoReact",
+        "imageVid": "/static/images/projects/detailsProjects/imgVid/ToDoReact.gif",
+        "name": "To Do React",
+        "description": "Esse projeto é uma ToDo List feita com Reactjs. Nela você pode adicionar uma tarefa à lista, marcar como concluída ou remover. Os itens são guardados no localStorage, então mesmo atualizando a página os dados ficam armazenados na memória.",
         "tecs": [
             "/static/images/projects/detailsProjects/tecs/html_logo.png",
             "/static/images/projects/detailsProjects/tecs/css_logo.png",
-            "/static/images/projects/detailsProjects/tecs/javaScript_logo.png"
+            "/static/images/projects/detailsProjects/tecs/javaScript_logo.png",
+            "/static/images/projects/detailsProjects/tecs/React_logo.png"
         ],
         "dep": [],
-        "githublink": "https://github.com/FelipeRLH/Calculador-de-Alimentos"
+        "githublink": "https://github.com/FelipeRLH/ToDo-List-React"
     }
 ]

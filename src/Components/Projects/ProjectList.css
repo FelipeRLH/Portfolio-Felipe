@@ -55,8 +55,7 @@
 
 
 
-/* MEDIA QUERYS */
-/* CELULAR */
+/* MOBILE */
 @media only screen and (max-width: 500px) {
 
     /* CONTAINER PROJETOS */
@@ -66,21 +65,18 @@
         align-items: center;
     }
 
-    /* PROJETOS */
+
+    /* PROJECTS */
     .project-projectList {
-        width: 280px;
+        height: 164px;
+    }
+
+    .project-projectList img {
+        width: 290px;
     }
 
     /* INFOS */
-    .container-projectList .project-projectList .infos-projectList {
-        width: 280px;
-    }
-
-    .container-projectList .project-projectList .infos-projectList .name {
-        font-size: 14px;
-    }
-
-    .container-projectList .project-projectList:hover .infos-projectList {
-        top: -35px;
+    .infos-projectList {
+        display: none;
     }
 }

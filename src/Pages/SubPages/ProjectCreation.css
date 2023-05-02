@@ -46,7 +46,7 @@
     margin-bottom: 5px;
 }
 
-.title-canal{
+.title-canal {
     display: flex;
     align-items: center;
     gap: 20px;
@@ -124,4 +124,44 @@
     color: #fff;
     text-decoration: none;
     font-family: var(--primary-font);
+}
+
+/* MOBILE */
+@media only screen and (max-width: 500px) {
+
+    /* NAV AREA */
+    .nav-projectCreation {
+        gap: 5rem;
+        margin-bottom: 15px;
+    }
+
+    /* ------ VIDEO AREA */
+    .container-vid-aside {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    /* VÍDEO */
+    .vid-projectCreation {
+        width: 330px;
+        height: 191px;
+        margin-bottom: 5px;
+    }
+
+    /* TITLE */
+    .Container-Video h1 {
+        font-size: 30px;
+    }
+
+    /* ASIDE AREA */
+    .container-aside {
+        height: 600px;
+    }
+
+    .aside-projectCreation {
+        width: 330px;
+        height: 440px;
+    }
+
 }
