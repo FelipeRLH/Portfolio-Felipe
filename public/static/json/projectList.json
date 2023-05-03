@@ -27,13 +27,13 @@
         "id": "QuizCopa",
         "name": "Quiz Copa Do Mundo",
         "text": "Este projeto é um quiz sobre a copa do mundo 2022 feito com React.",
-        "image": "/static/images/projects/page/quizcopa.png"
+        "image": "/static/images/projects/page/QuizCopa.png"
     },
     {
         "id": "Pokedex",
         "name": "Pokedex",
         "text": "Este projeto é uma Pokedex que desenvolvi sozinho. A aplicação se refere a um objeto utilizado no anime 'Pokemon' usado como um catálogo de pokemons.",
-        "image": "/static/images/projects/page/pokedex.png"
+        "image": "/static/images/projects/page/Pokedex.png"
     },
     {
         "id": "SiteIphone",

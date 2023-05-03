@@ -63,7 +63,9 @@
 
 /* Project description */
 .description-project {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-family: var(--secondary-font);
     color: var(--tertiary-color);
 }
@@ -183,6 +185,10 @@
 
     .links-projects {
         font-size: 15px;
+    }
+
+    .links-projects a {
+        margin: 0 5px;
     }
 }
 
