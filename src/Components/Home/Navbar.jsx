@@ -12,6 +12,7 @@ import '../../App.css'
 // COMPONENTS
 import HamburgerMenu from './HamburguerMenu'
 
+
 function Navbar() {
     // Set session color
     const [selectedId, setSelectedId] = useState("")
@@ -57,7 +58,7 @@ function Navbar() {
             <div className='links-nav-container'>
                 <ul>
                     <li onClick={() => handleScroll("home")}>
-                        <span className={selectedId === "home" ? 'selected' : ''}>Home</span>
+                        <span className={selectedId === "home" ? 'selected' : ''}>Início</span>
                     </li>
                     <li onClick={() => handleScroll("sobre")}>
                         <span className={selectedId === "sobre" ? 'selected' : ''}>Sobre mim</span>
@@ -78,3 +79,4 @@ function Navbar() {
 }
 
 export default Navbar
+

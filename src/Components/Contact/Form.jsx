@@ -41,7 +41,7 @@ function Form() {
                         <input
                             className='textimput'
                             type="text"
-                            placeholder='        Felipe Ramalho'
+                            placeholder='Seu nome'
                             onChange={(e) => setName(e.target.value)}
                             value={name}
                         />
@@ -51,7 +51,7 @@ function Form() {
                         <input
                             className='emailimput'
                             type="email"
-                            placeholder='        contato@gmail.com'
+                            placeholder='contato@gmail.com'
                             onChange={(e) => setEmail(e.target.value)}
                             value={email}
                         />

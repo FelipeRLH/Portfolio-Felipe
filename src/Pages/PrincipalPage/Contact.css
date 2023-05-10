@@ -148,7 +148,7 @@ textarea {
     font-family: var(--primary-font);
     background-color: var(--quaternary-color);
     margin: 5px;
-    padding: 9px;
+    padding: 9px 0px 9px 35px;
     border: 2px solid #000;
     border-radius: 6px;
 }

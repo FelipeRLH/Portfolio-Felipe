@@ -15,6 +15,7 @@ function ProjectCreation() {
   const [projectCurrent, setprojectCurrent] = useState({})
   const { id } = useParams()
 
+  // Buscando dados Json
   useEffect(() => {
     async function fetchData() {
       const response = await fetch(`/static/json/projectCreation.json`)

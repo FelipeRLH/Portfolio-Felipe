@@ -152,7 +152,6 @@ function Projects() {
           tecs={project4.tecs}
           img={project4.img}
           links={project4.links} />
-
       </div>
 
       <div className="more-projects">
