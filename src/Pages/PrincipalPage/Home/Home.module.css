@@ -1,9 +1,5 @@
-/* GERAL */
-#home {
-    height: 99vh;
-}
-
-.container-home {
+/* GENERAL */
+.ContainerHome {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,7 +7,7 @@
     padding-top: 22vh;
 }
 
-.background-home {
+.BackgroundHome {
     position: absolute;
     top: 10px;
     left: 1.5%;
@@ -23,45 +19,45 @@
     z-index: -2;
 }
 
-/* TEXT AREA */
-.container-text-home {
+/* CONTAINER TEXT */
+.ContainerText {
     position: relative;
 }
 
-.greetings {
+.Greetings {
     font-family: var(--primary-font);
     font-size: 45px;
     font-weight: bold;
 }
 
-.greetings span {
+.Greetings span {
     color: var(--secondary-color);
     background-color: #9DDACB;
     padding: 2px;
 }
 
 
-.container-text-home h1 {
+.ContainerText h1 {
     color: var(--primary-color);
     font-family: var(--primary-font);
     font-size: 45px;
 }
 
-.text-introduction {
+.Text {
     width: 370px;
     margin: 3px 0 25px 0;
     font-family: var(--secondary-font);
     font-size: 18px;
 }
 
-/* Button */
-.btn-container {
+/* BUTTON */
+.ContainerBtn {
     width: 147px;
     transition: .2s;
     height: 10px;
 }
 
-.btn {
+.Btn {
     background-color: var(--primary-color);
     border: 1px solid var(--tertiary-color);
     border-radius: 11px;
@@ -73,7 +69,7 @@
     transition: .3s;
 }
 
-.btn-background {
+.BtnBackground {
     position: relative;
     background-color: #7B7B7B;
     border: 1px solid #000;
@@ -86,67 +82,59 @@
     transition: .2s;
 }
 
-.btn-container:hover .btn-background {
+.ContainerBtn:hover .BtnBackground {
     background-color: #33eb2d;
 }
 
-/* Icons */
-.social-home {
+/* ICONS */
+.ContainerIcons {
     display: flex;
     gap: 10px;
-    margin-top: 90px;
+    margin-top: 80px;
 }
 
-.container-icon {
-    width: 30px;
-    position: relative;
-}
-
-.container-icon a {
+.Icon  {
     display: flex;
-    position: absolute;
     color: var(--secondary-color);
     background-color: #9DDACB;
     border: 1px solid #000;
     border-radius: 50px;
-    top: 19%;
-    left: 25%;
     padding: 6px;
-    font-size: 18px;
+    font-size: 20px;
     cursor: pointer;
 }
 
-/* IMG AREA */
-.container-img-home {
+/* CONTAINER IMAGE */
+.ContainerImage {
     position: relative;
 }
 
-.background-img-home {
+.ImageBack {
     width: 440px;
 }
 
-.box_numem_home {
-    position: absolute;
-    top: 50px;
-    left: 10px;
-    width: 250px;
-}
-
-.box_react_home {
-    position: absolute;
-    top: 73px;
-    right: -40px;
-    width: 180px;
-}
-
-.box_code_home {
+.ImageCode {
     position: absolute;
     bottom: 25px;
     right: -20px;
     width: 360px;
 }
 
-.avatar_home {
+.ImageCloud {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    width: 250px;
+}
+
+.ImageReact {
+    position: absolute;
+    top: 73px;
+    right: -40px;
+    width: 180px;
+}
+
+.Avatar {
     position: absolute;
     bottom: 0;
     right: -35px;
@@ -160,37 +148,37 @@
 
     /*  ---- GERAL */
     /* TEXT AREA */
-    .container-text-home {
+    .ContainerText {
         text-align: center;
     }
 
-    .greetings {
+    .Greetings {
         font-size: 28px;
     }
 
-    .container-text-home h1 {
+    .ContainerText h1 {
         font-size: 40px;
         width: 330px;
     }
 
-    .text-introduction {
+    .Text {
         width: 320px;
         margin: 3px 0 25px 0;
         font-size: 17px;
     }
 
-    .social-home {
+    .ContainerIcons {
         display: flex;
         justify-content: center;
     }
 
     /* IMAGE */
-    .container-img-home {
+    .ContainerImage {
         display: none;
     }
 
     /* Button */
-    .btn-container {
+    .ContainerBtn {
         margin: auto;
     }
 }

@@ -1,12 +1,12 @@
-/* NAV AREA */
-.nav-projectCreation {
+/* CONTAINER NAV */
+.NavProject {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 58rem;
 }
 
-.nav-projectCreation a {
+.NavProject a {
     font-size: 20px;
     display: flex;
     align-items: center;
@@ -21,8 +21,8 @@
     font-weight: bold;
 }
 
-/* ------ VIDEO AREA */
-.container-vid-aside {
+/* CONTAINER CONTENT */
+.ContainerContent {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +30,7 @@
 }
 
 /* VÍDEO */
-.vid-projectCreation {
+.Video {
     width: 853px;
     height: 479px;
     margin-bottom: 5px;
@@ -39,14 +39,14 @@
 }
 
 /* TITLE */
-.Container-Video h1 {
+.ContainerVideo h1 {
     font-size: 32px;
     font-family: var(--primary-font);
     color: #000;
     margin-bottom: 5px;
 }
 
-.title-canal {
+.TitleCanal {
     display: flex;
     align-items: center;
     gap: 20px;
@@ -54,11 +54,11 @@
 }
 
 /* ASIDE AREA */
-.container-aside {
+.ContainerAside {
     text-align: center;
 }
 
-.aside-projectCreation {
+.AsideContent {
     display: flex;
     flex-direction: column;
     margin-bottom: 70px;
@@ -73,32 +73,32 @@
 }
 
 /* Tecs */
-.Container-Tecs-projectCreation h2 {
+.ContainerTecs h2 {
     color: #fff;
     font-size: 20px;
     margin-bottom: 6px;
     font-family: var(--primary-font);
 }
 
-.Container-Tecs-projectCreation img {
+.ContainerTecs img {
     margin-right: 10px;
     width: 30px;
 }
 
 /* Dependencies */
-.Container-Dep h2 {
+.ContainerDep h2 {
     color: #fff;
     font-size: 20px;
     margin-bottom: 6px;
     font-family: var(--primary-font);
 }
 
-.Deps {
+.ContainerDep div {
     display: flex;
     flex-wrap: wrap;
 }
 
-.Container-Dep span {
+.ContainerDep span {
     color: #fff;
     font-weight: bold;
     background-color: #000;
@@ -110,13 +110,13 @@
 }
 
 /* Description */
-.description-projectCreation {
+.Description {
     font-size: 15px;
     color: #fff;
     font-family: var(--secondary-font);
 }
 
-.GitHub-projectCreation {
+.BtnGitHub {
     background-color: #000;
     padding: 20px;
     border-radius: 15px;
@@ -130,36 +130,36 @@
 @media only screen and (max-width: 500px) {
 
     /* NAV AREA */
-    .nav-projectCreation {
+    .NavProject {
         gap: 5rem;
         margin-bottom: 15px;
     }
 
     /* ------ VIDEO AREA */
-    .container-vid-aside {
+    .ContainerContent {
         display: flex;
         flex-direction: column;
         gap: 40px;
     }
 
     /* VÍDEO */
-    .vid-projectCreation {
+    .Video {
         width: 330px;
         height: 191px;
         margin-bottom: 5px;
     }
 
     /* TITLE */
-    .Container-Video h1 {
+    .ContainerVideo h1 {
         font-size: 30px;
     }
 
     /* ASIDE AREA */
-    .container-aside {
+    .ContainerAside {
         height: 600px;
     }
 
-    .aside-projectCreation {
+    .AsideContent {
         width: 330px;
         height: 440px;
     }

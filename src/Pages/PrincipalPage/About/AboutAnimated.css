@@ -1,0 +1,98 @@
+/* CONTAINER VÍDEO / TEXTO */
+@keyframes Text-in {
+    0% {
+        left: 250px;
+    }
+
+    40% {
+        left: 280px;
+    }
+
+    100% {
+        left: -320px;
+    }
+}
+
+@keyframes Video-in {
+    40% {
+        left: -350px;
+    }
+
+    100% {
+        left: 250px;
+    }
+}
+
+/* Video Content */
+@keyframes opacity-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes opacity-out {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/* ICONS */
+@keyframes AnimAboutLeft {
+    0% {
+        left: -100px;
+        opacity: 0;
+    }
+}
+
+@keyframes AnimAboutRight {
+    0% {
+        Right: -100px;
+        opacity: 0;
+    }
+}
+
+@keyframes iconAnim {
+    0% {
+        transform: translate(0);
+    }
+
+    20% {
+        transform: translate(2px, -2px);
+    }
+
+    40% {
+        transform: translate(2px, 2px);
+    }
+
+    60% {
+        transform: translate(-2px, 2px);
+    }
+
+    80% {
+        transform: translate(-2px, -2px);
+    }
+
+    100% {
+        transform: translate(0);
+    }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 500px) {}
+
+
+
+/* Televisão */
+@media only screen and (min-width: 1600px) {
+
+    /* ----- GERAL */
+
+}

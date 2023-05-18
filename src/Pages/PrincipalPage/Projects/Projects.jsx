@@ -6,13 +6,13 @@ import { Link } from "react-router-dom"
 import Projectsdata from "./Projectsdata"
 
 // IMG
-import gerenciadorProjImg from "../../Assets/projects/gerenciadordeprojetos.png"
-import filmestmdb from "../../Assets/projects/filmestmdb.png"
-import siteportfolio from "../../Assets/projects/siteportfolio.png"
-import portfoliofelipe from "../../Assets/projects/portfoliofelipe.png"
+import gerenciadorProjImg from "../../../Assets/projects/gerenciadordeprojetos.png"
+import filmestmdb from "../../../Assets/projects/filmestmdb.png"
+import siteportfolio from "../../../Assets/projects/siteportfolio.png"
+import portfoliofelipe from "../../../Assets/projects/portfoliofelipe.png"
 
 // CSS
-import "./Projects.css"
+import styles from "./Projects.module.css"
 
 
 function Projects() {
@@ -34,7 +34,7 @@ function Projects() {
   // VISIBILITY ON SCROLL
   useEffect(() => {
     function handleScroll() {
-      if (window.scrollY >= 1100) {
+      if (window.scrollY >= 1300) {
         setVisibilityLeft(prevState => {
           return { ...prevState, project1: "showLeft" }
         })
@@ -42,7 +42,7 @@ function Projects() {
           return { ...prevState, project1: "showRight" }
         })
       }
-      if (window.scrollY >= 1500) {
+      if (window.scrollY >= 1700) {
         setVisibilityLeft(prevState => {
           return { ...prevState, project2: "showLeft" }
         })
@@ -50,7 +50,7 @@ function Projects() {
           return { ...prevState, project2: "showRight" }
         })
       }
-      if (window.scrollY >= 1900) {
+      if (window.scrollY >= 2300) {
         setVisibilityLeft(prevState => {
           return { ...prevState, project3: "showLeft" }
         })
@@ -58,7 +58,7 @@ function Projects() {
           return { ...prevState, project3: "showRight" }
         })
       }
-      if (window.scrollY >= 2300) {
+      if (window.scrollY >= 2700) {
         setVisibilityLeft(prevState => {
           return { ...prevState, project4: "showLeft" }
         })
@@ -67,7 +67,6 @@ function Projects() {
         })
       }
     }
-
 
     window.addEventListener('scroll', handleScroll);
     return () => {
@@ -115,8 +114,8 @@ function Projects() {
 
   return (
     <div id='projetos'>
-      <div className='container-projects'>
-        <div className='title-projects'>
+      <div className={styles.ContainerProjects}>
+        <div className={styles.Title}>
           <h2>Meus <span>Projetos</span></h2>
           <p>Estes são alguns dos principais projetos que ja realizei. Fique a vontade para clicar e navegar neles.</p>
         </div>
@@ -154,9 +153,9 @@ function Projects() {
           links={project4.links} />
       </div>
 
-      <div className="more-projects">
+      <div className={styles.MoreProjects}>
         <Link to={"/moreprojects"} onClick={() => window.scrollY(0)}>Mais projetos</Link>
-        <div className="back-btn-about" />
+        <div className={styles.BackBtn} />
       </div>
     </div>
   )

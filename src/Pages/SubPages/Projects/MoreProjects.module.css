@@ -1,0 +1,50 @@
+/* BTN */
+.BtnReturn {
+    margin: 15px 0 0 50px;
+    display: flex;
+    font-size: 20px;
+}
+
+.BtnReturn a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 14px;
+    background-color: #000;
+    padding: 15px 20px;
+    font-family: var(--primary-font);
+    color: var(--secondary-color);
+    transition: .3s;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* TÍTULO */
+.Title {
+    text-align: center;
+    margin-bottom: 60px;
+    color: var(--tertiary-color);
+}
+
+.Title h1 {
+    font-size: 60px;
+    margin-bottom: 5px;
+    font-family: var(--primary-font);
+}
+
+.Title p {
+    font-size: 18px;
+    font-family: var(--secondary-font);
+}
+
+
+/* MEDIA QUERYS */
+/* CELULAR */
+@media only screen and (max-width: 500px) {
+
+    /* TÍTULO */
+    .title_projects p {
+        font-size: 13px;
+    }
+
+}

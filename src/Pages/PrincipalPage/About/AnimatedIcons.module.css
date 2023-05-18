@@ -1,0 +1,28 @@
+/* ICONS */
+.ContainerIconsAnimated {
+    position: absolute;
+    top: 130px;
+    width: 1250px;
+}
+
+.IconsAnimatedLeft {
+    position: absolute;
+    width: 270px;
+    height: 430px;
+    font-size: 50px;
+}
+
+.IconsAnimatedRight {
+    position: absolute;
+    width: 270px;
+    height: 430px;
+    right: 0px;
+    font-size: 50px;
+}
+
+.IconsAnimated {
+    position: absolute;
+    color: #3898ec8f;
+    animation: iconAnim 4s linear 0s infinite;
+
+}

@@ -1,11 +1,11 @@
-/* BTN */
-.btn-moreabout {
+/* BTN RETURN */
+.BtnReturn {
     margin: 15px 0 0 50px;
     display: flex;
     font-size: 20px;
 }
 
-.btn-moreabout a {
+.BtnReturn a {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -19,47 +19,47 @@
     font-weight: bold;
 }
 
-.btn-moreabout a:hover {
+.BtnReturn a:hover {
     color: var(--secondary-color);
     background-color: var(--primary-color);
 }
 
-/* HOME */
-.home-moreabout {
+/* CONTAINER HOME */
+.ContainerHome {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 70px;
 }
 
-.home-moreabout div {
+.ContainerHome div {
     width: 550px;
     text-align: center;
 }
 
-/* text */
-.home-moreabout h1 {
+/* Text */
+.ContainerHome h1 {
     font-family: var(--primary-font);
     font-size: 70px;
 }
 
-.home-moreabout h1 span {
+.ContainerHome h1 span {
     color: var(--secondary-color);
     background-color: var(--primary-color);
 }
 
-.home-moreabout p {
+.ContainerHome p {
     margin-top: 20px;
     font-family: var(--secondary-font);
     font-size: 20px;
 }
 
-/* btn */
-.btn-about-home {
+/* Btn Contato */
+.BtnContact {
     margin-top: 50px;
 }
 
-.btn-about-home a {
+.BtnContact a {
     gap: 10px;
     border-radius: 14px;
     background-color: #000;
@@ -71,80 +71,41 @@
     font-weight: bold;
 }
 
-.avatar_hi {
+.AvatarHi {
     width: 300px;
     height: 300px;
     margin-top: 170px;
 }
 
-.avatar_Dedo {
+.AvatarDedo {
     width: 250px;
     height: 250px;
     margin-bottom: 250px;
 }
 
-
-/* TEXT MORE ABOUT */
-.container-text-moreabout {
-    background-color: #d6d6d6;
-    padding: 100px;
-    margin-top: 5rem;
-    clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
-}
-
-.text-moreabout {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 70px;
-}
-
-.text-moreabout h2 {
-    font-family: var(--primary-font);
-    font-size: 50px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.text-moreabout h2 span {
-    background-color: #A790FF;
-    color: var(--secondary-color);
-}
-
-.text-moreabout img {
-    width: 540px;
-}
-
-.text-moreabout p {
-    margin-top: 5rem;
-    width: 400px;
-    text-align: center;
-    font-family: var(--secondary-font);
-}
-
-
 /* SKILLS */
-/* Title */
-.container-skills {
+.ContainerSkills {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
     margin-top: 10rem;
+    padding: 75px;
+    text-align: center;
+    box-shadow: 0 0 25px inset #000;
 }
 
-.title-skills h2 {
+.TitleSkills h2 {
     font-family: var(--primary-font);
     font-size: 60px;
 }
 
-.title-skills p {
+.TitleSkills p {
     font-family: var(--secondary-font);
     font-size: 18px;
 }
 
-/* Text */
-.container-devtools {
+/* Content */
+.ContainerDevtools {
     display: flex;
     position: relative;
     margin-top: 30px;
@@ -155,23 +116,27 @@
     box-shadow: 0px 0px 10px #00000031;
 }
 
-.container-devtools h3 {
+.ContainerDevtools h3 {
     margin-top: 15px;
 }
 
-.container-devtools ul li {
+.ContainerDevtools ul li {
     list-style: none;
     margin-top: 15px;
     font-family: var(--secondary-font);
+    position: relative;
+    cursor: help;
 }
 
-.container-devtools span {
+/* Line Center */
+.ContainerDevtools span {
     width: 3px;
     height: 340px;
     background-color: #9797973b;
 }
 
-.pokeballTop {
+/* Img */
+.PokeballTop {
     position: absolute;
     top: -110px;
     left: -250px;
@@ -179,7 +144,7 @@
     width: 300px;
 }
 
-.pokeballBottom {
+.PokeballBottom {
     position: absolute;
     right: -300px;
     bottom: -10px;
@@ -187,16 +152,35 @@
     width: 300px;
 }
 
+/* Message Box */
+.ContainerDevtools ul li:hover::after {
+    position: absolute;
+    margin-left: 10px;
+    width: 500px;
+    height: 20px;
+    background-color: #bbbbbb;
+    padding: 5px;
+    border: 1px solid #000000;
+    z-index: 2;
+}
+
+.Html:hover::after {
+    content: "Mensagem de exemplo";
+}
+
+.Css:hover::after {
+    content: "Exemplo de Mensagem";
+}
 
 /* SOFTSKILLS */
-.container-softskill-moreabout {
-    margin-top: 13rem;
+.ContainerSoftskill {
+    margin-top: 7rem;
     padding: 115px 0;
     background-color: #ffffc8;
     clip-path: polygon(0 8%, 100% 0, 100% 100%, 0% 100%);
 }
 
-.Title-softskills {
+.TitleSoftskills {
     display: flex;
     align-items: center;
     padding: 0 60px 0 60px;
@@ -204,17 +188,17 @@
 
 }
 
-.Title-softskills h2 {
+.TitleSoftskills h2 {
     font-family: var(--primary-font);
     font-size: 50px;
 }
 
-.Title-softskills p {
+.TitleSoftskills p {
     width: 900px;
     font-family: var(--secondary-font);
 }
 
-.softskills-moreabout {
+.SoftskillsContent {
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: center;
@@ -222,7 +206,7 @@
     margin-top: 50px;
 }
 
-.item-softskill {
+.SoftskillsItem {
     width: 340px;
     height: 180px;
     padding: 20px;
@@ -234,7 +218,7 @@
     font-family: var(--secondary-font);
 }
 
-.item-softskill h3 {
+.SoftskillsItem h3 {
     margin-bottom: 6px;
     font-family: var(--primary-font);
 }
@@ -244,21 +228,21 @@
 @media only screen and (max-width: 500px) {
 
     /* HOME */
-    .home-moreabout {
+    .ContainerHome {
         margin-top: 20vh;
     }
 
-    .home-moreabout img {
+    .ContainerHome img {
         display: none;
     }
 
-    .home-moreabout div {
+    .ContainerHome div {
         width: 350px;
         text-align: center;
     }
 
     /* text */
-    .home-moreabout h1 {
+    .ContainerHome h1 {
         font-size: 60px;
     }
 
@@ -289,19 +273,19 @@
 
     /* SKILLS */
     /* Text */
-    .container-devtools {
+    .ContainerDevtools {
         padding: 40px 8px;
         gap: 15px;
     }
 
-    .pokeballTop {
+    .PokeballTop {
         top: -230px;
         left: -10px;
         transform: rotate(-20deg);
         width: 100px;
     }
 
-    .pokeballBottom {
+    .PokeballBottom {
         right: -15px;
         bottom: -80px;
         transform: rotate(-20deg);
@@ -310,26 +294,26 @@
 
 
     /* SOFTSKILLS */
-    .container-softskill-moreabout {
+    .ContainerSoftskill {
         padding: 115px 0;
         clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%);
     }
 
-    .Title-softskills {
+    .TitleSoftskills {
         padding: 0 20px;
     }
 
-    .Title-softskills p {
+    .TitleSoftskills p {
         display: none;
     }
 
-    .softskills-moreabout {
+    .SoftskillsContent {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .item-softskill {
+    .SoftskillsItem {
         width: 330px;
     }
 }

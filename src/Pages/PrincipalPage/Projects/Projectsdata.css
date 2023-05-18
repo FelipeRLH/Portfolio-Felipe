@@ -1,0 +1,119 @@
+/* PROJECT IMAGE */
+.ImageContainer img {
+    width: 550px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0);
+    transition: .5s;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.ImageProject img:hover {
+    box-shadow: -1px -1px 5px rgb(0, 0, 0);
+}
+
+/* PROJECT DESCRIPTION */
+.DescriptionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--secondary-font);
+    color: var(--tertiary-color);
+}
+
+.DescriptionContainer h3 {
+    text-align: center;
+    font-size: 27px;
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    margin-bottom: 7px;
+}
+
+.DescriptionContainer p {
+    text-align: start;
+    width: 400px;
+}
+
+.DescriptionContainer span {
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* ANIMATIONS VISIBILITY */
+.hidden {
+    visibility: hidden;
+}
+
+.showLeft {
+    position: relative;
+    visibility: visible;
+    left: -30em;
+    opacity: 0;
+    animation: slide-in 1s forwards;
+}
+
+
+.showRight {
+    position: relative;
+    visibility: visible;
+    left: 30em;
+    opacity: 0;
+    animation: slide-in 1s forwards;
+}
+
+@keyframes slide-in {
+    100% {
+        left: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    /*  ---- GERAL */
+    /* PROJECT */
+    .project {
+        display: flex;
+        flex-direction: column;
+        width: 310px;
+    }
+
+    /* Project image */
+    .ImageProject img {
+        width: 280px;
+        border-radius: 20px;
+    }
+
+    /* Project description */
+    .DescriptionContainer h3 {
+        font-size: 20px;
+    }
+
+    .DescriptionContainer p {
+        text-align: center;
+        width: 290px;
+    }
+
+    .DescriptionContainer span {
+        font-size: 13px;
+        margin: auto;
+        padding: 10px;
+    }
+
+    .links-projects {
+        font-size: 15px;
+    }
+
+    .links-projects a {
+        margin: 0 5px;
+    }
+}
+
+/* Televisão */
+@media only screen and (min-width: 1600px) {
+
+    /* ----- GERAL */
+
+}

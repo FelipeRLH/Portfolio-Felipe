@@ -4,11 +4,11 @@ import { useState, useEffect } from 'react'
 import { BsArrowReturnLeft } from 'react-icons/bs';
 
 // CSS
-import "./ProjectCreation.css"
+import styles from "./ProjectsCreation.module.css"
 
 // IMG
-import ytlogo from "../../Assets/projects/ytlogo.png"
-import avatarFogo from "../../Assets/projects/avatarFogo.png"
+import ytlogo from "../../../Assets/projects/ytlogo.png"
+import avatarFogo from "../../../Assets/projects/avatarFogo.png"
 
 
 function ProjectCreation() {
@@ -29,28 +29,27 @@ function ProjectCreation() {
 
   const { imageVid, name, description, tecs, dep, githublink } = projectCurrent;
   return (
-    <section className='Container_Project'>
-
-      <div className='nav-projectCreation'>
+    <section>
+      < div className={styles.NavProject} >
         <img src={ytlogo} alt="Logo Youtube" width={140} />
         <Link to={"/"}><BsArrowReturnLeft /> Voltar</Link>
-      </div>
+      </div >
 
-      <div className='container-vid-aside'>
-        <div className='Container-Video'>
-          <img className='vid-projectCreation' src={imageVid} alt="" />
+      <div className={styles.ContainerContent}>
+        <div className={styles.ContainerVideo}>
+          <img className={styles.Video} src={imageVid} alt="" />
           <h1>{name}</h1>
-          <div className='title-canal'>
-            <img src={avatarFogo} alt="" width={45}/>
+          <div className={styles.TitleCanal}>
+            <img src={avatarFogo} alt="" width={45} />
             <h3>Felipe Ramalho</h3>
           </div>
         </div>
 
         {imageVid &&
           <>
-            <aside className='container-aside'>
-              <div className='aside-projectCreation'>
-                <div className='Container-Tecs-projectCreation'>
+            <aside className={styles.ContainerAside}>
+              <div className={styles.AsideContent}>
+                <div className={styles.ContainerTecs}>
                   <h2>Tecnologias:</h2>
                   <img src={tecs[0]} alt="Logo Tecnologia" />
                   <img src={tecs[1]} alt="Logo Tecnologia" />
@@ -65,9 +64,9 @@ function ProjectCreation() {
                   }
                 </div>
 
-                <div className='Container-Dep'>
+                <div className={styles.ContainerDep}>
                   <h2>Dependências:</h2>
-                  <div className='Deps'>
+                  <div>
                     {dep[0] &&
                       <span>{dep[0]}</span>
                     }
@@ -79,21 +78,22 @@ function ProjectCreation() {
                     }
                     {dep[3] &&
                       <span>{dep[3]}</span>
-                    }</div>
+                    }
+                  </div>
                 </div>
 
-                <div className='description-projectCreation'>
+                <div className={styles.Description}>
                   <p>{description}</p>
                 </div>
               </div>
-              <Link className='GitHub-projectCreation' to={githublink} target="_blank">
+              <Link className={styles.BtnGitHub} to={githublink} target="_blank">
                 Projeto no GitHub
               </Link>
             </aside>
           </>
         }
       </div>
-    </section>
+    </section >
   )
 }
 

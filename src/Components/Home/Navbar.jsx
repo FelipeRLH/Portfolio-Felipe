@@ -6,6 +6,7 @@ import logo_portfolio from '../../Assets/Home/logo_portfolio.png'
 import curriculo from '../../Assets/Home/CurriculoFelipe.pdf'
 
 // CSS
+import styles from './Navbar.module.css'
 import './Navbar.css'
 import '../../App.css'
 
@@ -49,13 +50,13 @@ function Navbar() {
     }, [positionScroll]);
 
     return (
-        <nav className='nav-container'>
-            <div className='logo-nav-container' onClick={() => handleScroll("home")}>
-                <div className='logo-nav-box'><img src={logo_portfolio} alt="Logo portfólio" width={28} /></div>
+        <nav className={styles.ContainerNav}>
+            <div className={styles.ContainerLogo} onClick={() => handleScroll("home")}>
+                <div className={styles.Logo}><img src={logo_portfolio} alt="Logo portfólio" width={28} /></div>
                 Portfólio
             </div>
 
-            <div className='links-nav-container'>
+            <div className={styles.ContainerLinks}>
                 <ul>
                     <li onClick={() => handleScroll("home")}>
                         <span className={selectedId === "home" ? 'selected' : ''}>Início</span>
@@ -71,7 +72,7 @@ function Navbar() {
                     </li>
                     <a href={curriculo} download><li>Download currículo</li></a>
                 </ul>
-                <div className='link-background'></div>
+                <div className={styles.LinkBackground}></div>
             </div>
             <HamburgerMenu />
         </nav>

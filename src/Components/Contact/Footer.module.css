@@ -1,5 +1,5 @@
 /* --------FOOTER */
-.footer_contact {
+.FooterContainer {
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -11,19 +11,19 @@
     font-family: var(--secondary-font);
 }
 
-.links_contact {
+.LinksFooter {
     display: flex;
     gap: 25px;
     cursor: pointer;
 }
 
-.links_contact a {
+.LinksFooter a {
     text-decoration: none;
     color: var(--secondary-color);
-    
+
 }
 
-.links_contact a:hover {
+.LinksFooter a:hover {
     color: var(--primary-color);
 }
 
@@ -32,21 +32,12 @@
 @media only screen and (max-width: 500px) {
 
     /*  ---- GERAL */
-    .footer_contact {
+    .FooterContainer {
         font-size: 9px;
         padding: 5px 5px;
     }
-    
-    .links_contact {
+
+    .LinksFooter {
         gap: 15px;
     }
-}
-
-
-
-/* Televisão */
-@media only screen and (min-width: 1600px) {
-
-    /* ----- GERAL */
-   
 }

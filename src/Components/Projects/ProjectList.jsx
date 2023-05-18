@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
 
 // CSS
-import './ProjectList.css'
+import styles from './ProjectList.module.css'
 
 
 function ProjectList() {
@@ -19,19 +19,19 @@ function ProjectList() {
 
     return (
         <div>
-            <div className='container-projectList'>
+            <div className={styles.ContainerProject}>
                 {data.map((item) => {
                     const { id, name, text, image } = item;
                     return (
-                        <Link to={`/moreprojects/${id}`} className='link-projectList' key={id}>
-                            <div className='project-projectList' >
+                        <Link to={`/moreprojects/${id}`} className={styles.LinkProject} key={id}>
+                            <div className={styles.Project} >
                                 <img src={image} alt={name} />
 
-                                <div className="infos-projectList">
+                                <div className={styles.Infos}>
                                     <span>{text}</span>
                                 </div>
                             </div>
-                            <h2 className="name-projectList">{name}</h2>
+                            <h2 className={styles.Name}>{name}</h2>
                         </Link>
                     )
                 })}

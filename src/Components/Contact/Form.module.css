@@ -1,0 +1,104 @@
+.ContainerForm {
+    display: flex;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.NameForm {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--primary-font);
+    font-weight: bold;
+}
+
+.EmailForm {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--primary-font);
+    font-weight: bold;
+}
+
+.Icon {
+    position: absolute;
+    bottom: 15px;
+    left: 17px;
+}
+
+.Textarea {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--primary-font);
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.TextImput,
+.EmailImput,
+textarea {
+    font-family: var(--primary-font);
+    background-color: var(--quaternary-color);
+    margin: 5px;
+    padding: 9px 0px 9px 35px;
+    border: 2px solid #000;
+    border-radius: 6px;
+}
+
+.TextImput,
+.EmailImput {
+    width: 220px;
+}
+
+textarea {
+    height: 175px;
+}
+
+/* BUTTON */
+.Btn{
+    background-color: #000;
+    font-family: var(--primary-font);
+    border: none;
+    border-radius: 14px;
+    color: var(--secondary-color);
+    font-weight: bold;
+    font-size: 15px;
+    width: 110px;
+    height: 50px;
+    margin-top: 17px;
+    text-decoration: none;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.btn-form:hover {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+}
+
+@media only screen and (max-width: 500px) {
+
+
+
+    /* FORM CONTACT */
+    .ContainerForm {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .textimput,
+    .emailimput,
+    textarea {
+        margin: 5px 0;
+        padding: 9px;
+    }
+
+    .textimput,
+    .emailimput {
+        width: 260px;
+    }
+}

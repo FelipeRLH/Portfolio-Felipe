@@ -21,11 +21,27 @@ body {
     overflow-x: hidden;
 }
 
+
+
+/* SESSÕES */
+#home {
+    height: 99vh;
+}
+
+#sobre {
+    padding: 90px 0;
+}
+
+#contato {
+    margin: 85px 0 0 0;
+}
+
+/* SCROLL */
 ::-webkit-scrollbar {
     background-color: #0a0e0e;
     width: 13px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #093250;
+    background-color: #0d82d6;
 }

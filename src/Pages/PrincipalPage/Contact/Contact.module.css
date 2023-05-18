@@ -1,0 +1,136 @@
+/* TÍTULO */
+.ContainerTitle {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 30px 100px;
+    border-top: 1px solid #5e5e5e;
+    border-bottom: 1px solid #5e5e5e;
+    background-color: var(--tertiary-color);
+}
+
+.ContainerTitle h2 {
+    font-size: 60px;
+    font-family: 'Bakbak One', cursive;
+    color: var(--secondary-color);
+}
+
+.ContainerTitle img {
+    width: 60px;
+    height: 60px;
+    animation: imganimation .7s ease-in 0s infinite alternate forwards;
+}
+
+@keyframes imganimation {
+    0% {
+        transform: translateY(-5px);
+    }
+
+    100% {
+        transform: translateY(8px);
+    }
+}
+
+/* CONTAINER INFOS */
+.ContainerInfos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7vh;
+    gap: 80px;
+}
+
+.Infos {
+    position: relative;
+    color: var(--tertiary-color);
+    font-family: var(--secondary-font);
+    background-color: #EBF4FF;
+    border: 2px solid #000;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.Infos div {
+    display: flex;
+    align-items: center;
+    padding: 14px 0;
+}
+
+.Icon {
+    margin-right: 20px;
+    font-size: 33px;
+    color: var(--tertiary-color);
+}
+
+.InfosBackground {
+    position: absolute;
+    width: 340px;
+    height: 161px;
+    top: 10px;
+    left: 10px;
+    border: 2px solid #000;
+    background-color: #EBF4FF;
+    z-index: -1;
+}
+
+/* CONTAINER FORM */
+.ContainerForm {
+    padding: 25px;
+    border: 2px solid #000;
+    border-radius: 30px;
+    box-shadow: 10px 10px #000;
+}
+
+.TitleForm {
+    color: var(--tertiary-color);
+    font-family: var(--primary-font);
+    width: 179px;
+    font-size: 33px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.TitleForm span {
+    background-color: #53ceff;
+    color: var(--secondary-color);
+}
+
+
+
+@media only screen and (max-width: 500px) {
+
+    /*  ---- GERAL */
+    .ContainerForm {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    /* TÍTULO */
+    .ContainerTitle {
+        padding: 30px 20px;
+    }
+
+    .ContainerTitle h2 {
+        font-size: 40px;
+    }
+
+    .title-contact {
+        gap: 20px;
+    }
+
+    .title-contact img {
+        width: 45px;
+        height: 45px;
+    }
+
+}
+
+
+
+/* Televisão */
+@media only screen and (min-width: 1600px) {
+
+    /* ----- GERAL */
+
+}

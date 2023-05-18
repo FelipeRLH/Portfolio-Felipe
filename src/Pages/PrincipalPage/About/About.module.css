@@ -1,0 +1,173 @@
+/* GENERAL */
+.ContainerAbout {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+    padding: 50px 0 40px 0;
+}
+
+/* BTN TOGGLE */
+.BtnToggle {
+    position: relative;
+    display: flex;
+    padding: 8px 20px;
+    margin-bottom: 20px;
+    gap: 30px;
+    border-radius: 24px;
+    border: 2px solid #000;
+    background-color: var(--primary-color);
+}
+
+.IconToggle {
+    color: #e9e9e9;
+    font-size: 28px;
+    z-index: 2;
+    cursor: pointer;
+    transition: .8s;
+}
+
+.BtnToggle div {
+    position: absolute;
+    top: -3px;
+    width: 67px;
+    height: 50px;
+    border-radius: 24px;
+    background-color: #016bc9;
+    transition: .5s;
+}
+
+/* CONTAINER VÍDEO / TEXTO */
+.ContainerContent {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: -320px;
+    gap: 60px;
+}
+
+/* Video Content */
+.VideoContent img {
+    width: 570px;
+    border-radius: 43px;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.7);
+}
+
+/* Text Content */
+.TextContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: justify;
+    border: 3px solid #000;
+    border-radius: 25px 0 25px 0;
+    background-color: #3898ecd3;
+    box-shadow: 5px 5px #000;
+}
+
+.TextContent h2 {
+    font-family: var(--primary-font);
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 7px;
+}
+
+.TextContent p {
+    width: 420px;
+    margin-bottom: 7px;
+    font-family: var(--secondary-font);
+    color: var(--tertiary-color);
+}
+
+.tecs-about {
+    margin-top: 8px;
+}
+
+.TecsContent img {
+    width: 50px;
+    margin: 10px 15px 0 0;
+}
+
+/* BTN */
+.BtnMoreAbout {
+    margin-top: 50px;
+}
+
+.BtnMoreAbout a {
+    padding: 15px 20px;
+    border: 2px solid #000;
+    font-family: var(--primary-font);
+    font-weight: bold;
+    color: #fff;
+    box-shadow: 4px 4px #000;
+    background-color: var(--primary-color);
+    text-decoration: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.BtnMoreAbout a:hover {
+    box-shadow: 7px 7px #000;
+}
+
+
+
+/* MOBILE */
+@media only screen and (max-width: 500px) {
+
+    /*  ---- GERAL */
+    #sobre {
+        padding: 0;
+    }
+
+    /* Video Content */
+    .VideoContent {
+        display: none;
+    }
+
+    /* TEXT AREA */
+    .text-about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .text-about p {
+        width: 270px;
+    }
+
+    /* Tecs */
+    .TecsContent {
+        bottom: 0;
+        width: 324px;
+        height: 60px;
+    }
+
+    .TecsContent img {
+        width: 35px;
+    }
+
+    /* ANIMATIONS VISIBILITY */
+    .showLeft {
+        left: 0em;
+        animation: slide-in 2s forwards;
+    }
+
+    .showRight {
+        left: 0em;
+        animation: slide-in 2s forwards;
+    }
+}
+
+
+
+/* Televisão */
+@media only screen and (min-width: 1600px) {
+
+    /* ----- GERAL */
+
+}

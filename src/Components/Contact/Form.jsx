@@ -1,7 +1,10 @@
+// REACT
 import { useState } from 'react'
 import emailjs from '@emailjs/browser'
-
 import { FaUserAlt, FaRegEnvelope } from 'react-icons/fa';
+
+// CSS
+import styles from "./Form.module.css"
 
 function Form() {
     const [name, setName] = useState('')
@@ -34,46 +37,43 @@ function Form() {
     }
 
     return (
-        <div>
-            <form onSubmit={sendEmail}>
-                <div className='container-form'>
-                    <label className='nameForm' htmlFor="Email">Nome
-                        <input
-                            className='textimput'
-                            type="text"
-                            placeholder='Seu nome'
-                            onChange={(e) => setName(e.target.value)}
-                            value={name}
-                        />
-                         <FaUserAlt className='icon' />
-                    </label>
-                    <label className='emailForm' htmlFor="Email"> Email
-                        <input
-                            className='emailimput'
-                            type="email"
-                            placeholder='contato@gmail.com'
-                            onChange={(e) => setEmail(e.target.value)}
-                            value={email}
-                        />
-                        <FaRegEnvelope className='icon' />
-                    </label>
-                </div>
-
-                <label htmlFor="textareaForm" className='textareaForm'> Mensagem
-                    <textarea
-                        className='textarea'
-                        placeholder='Digitar mensagem...'
-                        onChange={(e) => setMessage(e.target.value)}
-                        value={message}
+        <form onSubmit={sendEmail}>
+            <div className={styles.ContainerForm}>
+                <label className={styles.NameForm} htmlFor="Email">Nome
+                    <input
+                        className={styles.TextImput}
+                        type="text"
+                        placeholder='Seu nome'
+                        onChange={(e) => setName(e.target.value)}
+                        value={name}
                     />
+                    <FaUserAlt className={styles.Icon} />
                 </label>
-                <input
-                    className='btn-form'
-                    type="submit"
-                    value="Enviar"
+                <label className={styles.EmailForm} htmlFor="Email"> Email
+                    <input
+                        className={styles.EmailImput}
+                        type="email"
+                        placeholder='contato@gmail.com'
+                        onChange={(e) => setEmail(e.target.value)}
+                        value={email}
+                    />
+                    <FaRegEnvelope className={styles.Icon} />
+                </label>
+            </div>
+
+            <label htmlFor="textareaForm" className={styles.Textarea}> Mensagem
+                <textarea
+                    placeholder='Digitar mensagem...'
+                    onChange={(e) => setMessage(e.target.value)}
+                    value={message}
                 />
-            </form>
-        </div>
+            </label>
+            <input
+                className={styles.Btn}
+                type="submit"
+                value="Enviar"
+            />
+        </form>
     )
 }
 
