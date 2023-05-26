@@ -1,11 +1,27 @@
+/* GENERAL */
+.ContainerContact {
+    position: relative;
+    overflow: hidden;
+    height: 800px;
+}
+
+.Background {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 720px;
+    z-index: -1;
+    background-image: url('../../../Assets/Contact/BackGalaxy.png');
+    background-attachment: fixed;
+}
+
 /* TÍTULO */
 .ContainerTitle {
     display: flex;
     align-items: center;
     gap: 40px;
-    padding: 30px 100px;
+    padding: 20px 100px;
     border-top: 1px solid #5e5e5e;
-    border-bottom: 1px solid #5e5e5e;
     background-color: var(--tertiary-color);
 }
 
@@ -31,61 +47,30 @@
     }
 }
 
-/* CONTAINER INFOS */
-.ContainerInfos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 7vh;
-    gap: 80px;
-}
-
-.Infos {
-    position: relative;
-    color: var(--tertiary-color);
-    font-family: var(--secondary-font);
-    background-color: #EBF4FF;
-    border: 2px solid #000;
-    padding: 20px;
-    font-size: 18px;
-}
-
-.Infos div {
-    display: flex;
-    align-items: center;
-    padding: 14px 0;
-}
-
-.Icon {
-    margin-right: 20px;
-    font-size: 33px;
-    color: var(--tertiary-color);
-}
-
-.InfosBackground {
-    position: absolute;
-    width: 340px;
-    height: 161px;
-    top: 10px;
-    left: 10px;
-    border: 2px solid #000;
-    background-color: #EBF4FF;
-    z-index: -1;
-}
-
 /* CONTAINER FORM */
 .ContainerForm {
+    display: flex;
+    justify-content: center;
+    margin-top: 7vh;
+}
+
+/* CONTAINER CONTENT */
+.ContainerContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 25px;
-    border: 2px solid #000;
     border-radius: 30px;
-    box-shadow: 10px 10px #000;
+    backdrop-filter: blur(3px);
+    background-color: rgba(46, 46, 46, 0.295);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .5);
 }
 
 .TitleForm {
-    color: var(--tertiary-color);
-    font-family: var(--primary-font);
-    width: 179px;
+    color: #000;
+    font-family: 'Audiowide', cursive;
     font-size: 33px;
+    text-shadow: 0 0 2px #ffff00;
     font-weight: bold;
     margin-bottom: 15px;
 }
@@ -95,15 +80,35 @@
     color: var(--secondary-color);
 }
 
+.EstrelaDaMorte {
+    position: absolute;
+    z-index: -1;
+    top: 200px;
+    left: 140px;
+    width: 10px;
+    animation: identifier 80s ease-in infinite;
+}
 
+@keyframes identifier {
+    0% {
+        top: 200px;
+        left: 140px;
+        width: 10px;
+    }
+
+    100% {
+        top: 100px;
+        left: 940px;
+        width: 1900px;
+    }
+}
 
 @media only screen and (max-width: 500px) {
 
-    /*  ---- GERAL */
-    .ContainerForm {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
+    /*  GENERAL */
+    /* GENERAL */
+    .ContainerContact {
+        height: 762px;
     }
 
     /* TÍTULO */
@@ -115,22 +120,12 @@
         font-size: 40px;
     }
 
-    .title-contact {
+    .ContainerTitle {
         gap: 20px;
     }
 
-    .title-contact img {
+    .ContainerTitle img {
         width: 45px;
         height: 45px;
     }
-
-}
-
-
-
-/* Televisão */
-@media only screen and (min-width: 1600px) {
-
-    /* ----- GERAL */
-
 }

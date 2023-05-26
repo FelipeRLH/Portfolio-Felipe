@@ -3,6 +3,11 @@ import { useState } from 'react'
 import emailjs from '@emailjs/browser'
 import { FaUserAlt, FaRegEnvelope } from 'react-icons/fa';
 
+// IMG
+import sabre from '../../Assets/Contact/sabredeluz.png'
+
+import video from './starvid.mp4'
+
 // CSS
 import styles from "./Form.module.css"
 
@@ -39,7 +44,8 @@ function Form() {
     return (
         <form onSubmit={sendEmail}>
             <div className={styles.ContainerForm}>
-                <label className={styles.NameForm} htmlFor="Email">Nome
+                <label className={styles.NameForm} htmlFor="Email">
+                    <FaUserAlt className={styles.Icon} />
                     <input
                         className={styles.TextImput}
                         type="text"
@@ -47,9 +53,12 @@ function Form() {
                         onChange={(e) => setName(e.target.value)}
                         value={name}
                     />
-                    <FaUserAlt className={styles.Icon} />
+                    <span className={styles.Laser}></span>
+                    <img className={styles.Sabre} src={sabre} alt="" />
                 </label>
-                <label className={styles.EmailForm} htmlFor="Email"> Email
+
+                <label className={styles.EmailForm} htmlFor="Email">
+                    <FaRegEnvelope className={styles.Icon} />
                     <input
                         className={styles.EmailImput}
                         type="email"
@@ -57,22 +66,27 @@ function Form() {
                         onChange={(e) => setEmail(e.target.value)}
                         value={email}
                     />
-                    <FaRegEnvelope className={styles.Icon} />
+                    <span className={styles.Laser}></span>
+                    <img className={styles.Sabre} src={sabre} alt="" />
                 </label>
             </div>
 
-            <label htmlFor="textareaForm" className={styles.Textarea}> Mensagem
-                <textarea
-                    placeholder='Digitar mensagem...'
-                    onChange={(e) => setMessage(e.target.value)}
-                    value={message}
-                />
-            </label>
-            <input
-                className={styles.Btn}
-                type="submit"
-                value="Enviar"
+            <textarea
+                placeholder='Digitar mensagem...'
+                onChange={(e) => setMessage(e.target.value)}
+                value={message}
             />
+
+            <div className={styles.BtnContainer}>
+                <input
+                    className={styles.Btn}
+                    type="submit"
+                    value="Enviar"
+                />
+                <video autoPlay muted loop>
+                    <source src={video} type="video/mp4" />
+                </video>
+            </div>
         </form>
     )
 }

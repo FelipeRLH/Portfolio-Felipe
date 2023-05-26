@@ -49,9 +49,9 @@
 }
 
 /* Video Content */
-.VideoContent img {
+.VideoContent video {
     width: 570px;
-    border-radius: 43px;
+    border-radius: 25px 0 25px 0;
     box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.7);
 }
 
@@ -63,7 +63,7 @@
     padding: 20px;
     text-align: justify;
     border: 3px solid #000;
-    border-radius: 25px 0 25px 0;
+    
     background-color: #3898ecd3;
     box-shadow: 5px 5px #000;
 }
@@ -82,35 +82,13 @@
     color: var(--tertiary-color);
 }
 
-.tecs-about {
+.TecsContent {
     margin-top: 8px;
 }
 
 .TecsContent img {
     width: 50px;
-    margin: 10px 15px 0 0;
-}
-
-/* BTN */
-.BtnMoreAbout {
-    margin-top: 50px;
-}
-
-.BtnMoreAbout a {
-    padding: 15px 20px;
-    border: 2px solid #000;
-    font-family: var(--primary-font);
-    font-weight: bold;
-    color: #fff;
-    box-shadow: 4px 4px #000;
-    background-color: var(--primary-color);
-    text-decoration: none;
-    cursor: pointer;
-    transition: .3s;
-}
-
-.BtnMoreAbout a:hover {
-    box-shadow: 7px 7px #000;
+    margin: 0 9px;
 }
 
 
@@ -119,55 +97,28 @@
 @media only screen and (max-width: 500px) {
 
     /*  ---- GERAL */
-    #sobre {
-        padding: 0;
+    /* CONTAINER VÍDEO / TEXTO */
+    .ContainerContent {
+        left: -210px;
     }
 
     /* Video Content */
-    .VideoContent {
-        display: none;
+    .VideoContent img {
+        width: 350px;
     }
 
-    /* TEXT AREA */
-    .text-about {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+    /* Text Content */
+    .TextContent h2 {
+        font-size: 30px;
     }
 
-    .text-about p {
-        width: 270px;
+    .TextContent p {
+        width: 280px;
     }
 
     /* Tecs */
-    .TecsContent {
-        bottom: 0;
-        width: 324px;
-        height: 60px;
-    }
-
     .TecsContent img {
         width: 35px;
+        margin: 0 5px;
     }
-
-    /* ANIMATIONS VISIBILITY */
-    .showLeft {
-        left: 0em;
-        animation: slide-in 2s forwards;
-    }
-
-    .showRight {
-        left: 0em;
-        animation: slide-in 2s forwards;
-    }
-}
-
-
-
-/* Televisão */
-@media only screen and (min-width: 1600px) {
-
-    /* ----- GERAL */
-
 }

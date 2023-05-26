@@ -45,3 +45,22 @@
 .Links a:hover {
     background-color: var(--primary-color);
 }
+
+@media only screen and (max-width: 500px) {
+
+    /*  ---- GERAL */
+    /* PROJECT */
+    .Project {
+        display: flex;
+        flex-direction: column;
+        width: 310px;
+    }
+
+    .Links {
+        font-size: 15px;
+    }
+
+    .Links a {
+        margin: 0 5px;
+    }
+}

@@ -12,12 +12,15 @@ import react_logo from "../../../Assets/About/About/react_logo.png"
 import bootstrap_logo from "../../../Assets/About/About/bootstrap_logo.png"
 import figma_logo from "../../../Assets/About/About/figma_logo.png"
 
+import VideoAbout from "../../../Assets/About/About/VideoAbout.mp4"
+
 // COMPONENTS
 import AnimatedIcons from "./AnimatedIcons"
 
 // CSS
 import "./AboutAnimated.css"
 import styles from "./About.module.css"
+import { Button1 } from "../../../Components/StyledComponents/Button1.style";
 
 
 function About() {
@@ -65,7 +68,7 @@ function About() {
 
         <div className={styles.ContainerContent} style={{ animation: `${animationMove} .8s ease-in-out forwards` }}>
           <div className={styles.VideoContent} style={{ animation: `${opacityLeft} .8s forwards` }}>
-            <img src={img_escritorio} alt="" />
+            <video src={VideoAbout} type="video/mp4" controls></video>
           </div>
 
           <div className={styles.TextContent} style={{ animation: `${opacityRight} 1s forwards` }}>
@@ -74,9 +77,8 @@ function About() {
               Sou ágil e consistente em aprender novas tecnologias e me adaptar a
               mudanças com resiliência. Tenho experiência com projetos pessoais em
               que pude criar diversas funcionalidades. Entre as habilidades que
-              possuo, destaco a configuração de rotas utilizando o Router, integração
-              com APIs, versionamento de código com Git, além de aplicar semântica
-              para SEO.</p>
+              possuo, destaco o React-Router, APIs(Axios e useQuery), Git, Styled-components,
+              CSS Modules, Responsivo, Componentização, Flexbox, SEO e etc.</p>
             <p>Tenho 20 anos, sou um ávido estudante e leitor. Me interesso
               por temas como Administração, Tecnologia, Psicologia e Economia. Sou
               fascinado pelo Desenvolvimento Pessoal e me considero otimista,
@@ -96,9 +98,7 @@ function About() {
           </div>
         </div>
 
-        <div className={styles.BtnMoreAbout}>
-          <Link to="/moreabout" onClick={() => window.scrollY(0)}>Mais sobre mim</Link>
-        </div>
+        <Button1><Link to="/moreabout" onClick={() => window.scrollY(0)}>Mais sobre mim</Link></Button1>
 
         <AnimatedIcons moveBtn={moveBtn} />
       </div>
@@ -106,4 +106,4 @@ function About() {
   )
 }
 
-export default About
+export default About;

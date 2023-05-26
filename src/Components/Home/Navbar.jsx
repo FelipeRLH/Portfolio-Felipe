@@ -44,7 +44,7 @@ function Navbar() {
             setSelectedId("sobre")
         } if (positionScroll >= 12) {
             setSelectedId("projetos")
-        } if (positionScroll >= 32) {
+        } if (positionScroll >= 36) {
             setSelectedId("contato")
         }
     }, [positionScroll]);

@@ -80,7 +80,7 @@ function Projects() {
     visibility: [visibilityLeft.project1, visibilityRight.project1],
     title: "Portfólio Felipe",
     img: portfoliofelipe,
-    description: "Bem-vindo ao meu portfólio pessoal! Nele, você encontrará todas as informações relevantes sobre mim, incluindo minhas habilidades, experiências e projetos. Com uma abordagem mais visual do que um currículo tradicional, este portfólio é uma maneira única e dinâmica de explorar meu trabalho. Fique à vontade para navegar e descobrir mais sobre mim e minhas realizações.",
+    description: "Esse é meu Portfólio pessoal! Este projeto conta com diversas funcionalidades que pude estudar e aprimorar bastante no React, dentre as tecnologias utilizadas destaco a configuração de rotas com React Router, CSS Modules e Styled components para estilização, Fetch e tratamento de dados vindos de um JSON, Bibliotecas externas como React Icons, EmailJS e etc, Funcionalidades de scroll e animações, Layouts responsivos com Flexbox e Grid + Figma",
     tecs: ["HTML", "CSS", "JavaScript", "React", "Figma"],
     links: ["/moreprojects/portfoliofelipe", "https://portfolio-felipe-brown.vercel.app/"]
   }

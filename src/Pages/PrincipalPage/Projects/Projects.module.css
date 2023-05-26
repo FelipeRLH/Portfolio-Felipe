@@ -30,63 +30,6 @@
 }
 
 /* BUTTON */
-.MoreProjects a:hover {
-    color: var(--secondary-color);
-    background-color: var(--primary-color);
-}
-
-.BackBtn {
-    position: absolute;
-    margin-left: 45px;
-    background-color: #00000028;
-    width: 190px;
-    height: 100px;
-    clip-path: polygon(0 50%, 78% 20%, 100% 100%, 20% 100%);
-}
-
-
-@media only screen and (max-width: 500px) {
-
-    /*  ---- GERAL */
-    /* PROJECT */
-    .project {
-        display: flex;
-        flex-direction: column;
-        width: 310px;
-    }
-
-    /* Project image */
-    .image-project img {
-        width: 280px;
-        border-radius: 20px;
-    }
-
-    /* Project description */
-    .description-project h3 {
-        font-size: 20px;
-    }
-
-    .description-project p {
-        text-align: center;
-        width: 290px;
-    }
-
-    .description-project span {
-        font-size: 13px;
-        margin: auto;
-        padding: 10px;
-    }
-
-    .links-projects {
-        font-size: 15px;
-    }
-
-    .links-projects a {
-        margin: 0 5px;
-    }
-}
-
-/* BUTTON */
 .MoreProjects {
     display: flex;
     justify-content: center;
@@ -94,21 +37,28 @@
 }
 
 .MoreProjects a {
-    background-color: #000;
-    border-radius: 14px;
-    padding: 20px;
+    padding: 15px 20px;
+    border: 2px solid #000;
     font-family: var(--primary-font);
-    font-size: 18px;
-    color: var(--secondary-color);
-    transition: .3s;
-    text-decoration: none;
     font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    background-color: var(--primary-color);
+    text-decoration: none;
+    cursor: pointer;
+    transition: .3s;
     z-index: 2;
 }
 
-/* Televisão */
-@media only screen and (min-width: 1600px) {
-
-    /* ----- GERAL */
-
+.BackBtn {
+    position: absolute;
+    margin-left: 44px;
+    background-color: #00000028;
+    width: 200px;
+    height: 100px;
+    clip-path: polygon(0 50%, 78% 20%, 100% 100%, 20% 100%);
 }
+
+
+
+@media only screen and (max-width: 500px) {}

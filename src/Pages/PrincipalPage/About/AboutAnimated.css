@@ -86,13 +86,29 @@
 }
 
 /* MOBILE */
-@media only screen and (max-width: 500px) {}
+@media only screen and (max-width: 500px) {
+    @keyframes Text-in {
+        0% {
+            left: 190px;
+        }
 
+        40% {
+            left: 220px;
+        }
 
+        100% {
+            left: -210px;
+        }
+    }
 
-/* Televisão */
-@media only screen and (min-width: 1600px) {
+    @keyframes Video-in {
+        40% {
+            left: -250px;
+        }
 
-    /* ----- GERAL */
+        100% {
+            left: 190px;
+        }
+    }
 
 }

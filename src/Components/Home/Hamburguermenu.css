@@ -12,7 +12,7 @@
     right: -255px;
     width: 250px;
     height: 100%;
-    background-color: #0a3838;
+    background-image: url('../../Assets/Contact/BackGalaxy.png');
     box-shadow: -10px 0 10px -10px rgba(0, 0, 0, 0.3);
     transition: right 0.3s ease-out;
     z-index: -1;

@@ -7,14 +7,13 @@ import ProjectList from '../../../Components/Projects/ProjectList'
 
 // CSS
 import styles from './MoreProjects.module.css'
+import { ButtonReturn } from '../../../Components/StyledComponents/ButtonReturn.style';
 
 function MoreProjects() {
     return (
         <section>
             <div>
-                <div className={styles.BtnReturn}>
-                    <Link to={"/"}><BsArrowReturnLeft />Voltar</Link>
-                </div>
+                <ButtonReturn ><Link to={"/"}><BsArrowReturnLeft />Voltar</Link></ButtonReturn>
 
                 <div className={styles.Title}>
                     <h1>Todos os Projetos</h1>

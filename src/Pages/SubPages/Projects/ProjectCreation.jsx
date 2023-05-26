@@ -10,6 +10,7 @@ import styles from "./ProjectsCreation.module.css"
 import ytlogo from "../../../Assets/projects/ytlogo.png"
 import avatarFogo from "../../../Assets/projects/avatarFogo.png"
 
+import { ButtonReturn } from '../../../Components/StyledComponents/ButtonReturn.style';
 
 function ProjectCreation() {
   const [projectCurrent, setprojectCurrent] = useState({})
@@ -30,9 +31,9 @@ function ProjectCreation() {
   const { imageVid, name, description, tecs, dep, githublink } = projectCurrent;
   return (
     <section>
-      < div className={styles.NavProject} >
+      <div className={styles.NavProject} >
         <img src={ytlogo} alt="Logo Youtube" width={140} />
-        <Link to={"/"}><BsArrowReturnLeft /> Voltar</Link>
+        <ButtonReturn><Link to={"/"}><BsArrowReturnLeft /> Voltar</Link></ButtonReturn>
       </div >
 
       <div className={styles.ContainerContent}>

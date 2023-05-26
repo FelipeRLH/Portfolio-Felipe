@@ -146,8 +146,7 @@
 
 @media only screen and (max-width: 500px) {
 
-    /*  ---- GERAL */
-    /* TEXT AREA */
+    /* GENERAL */
     .ContainerText {
         text-align: center;
     }
@@ -181,13 +180,4 @@
     .ContainerBtn {
         margin: auto;
     }
-}
-
-
-
-/* Televisão */
-@media only screen and (min-width: 1600px) {
-
-    /* ----- GERAL */
-
 }

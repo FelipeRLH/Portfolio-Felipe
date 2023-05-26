@@ -2,28 +2,30 @@
 .FooterContainer {
     position: relative;
     display: flex;
-    justify-content: space-between;
-    background-color: #000;
+    flex-direction: column;
+    align-items: center;
     top: 50px;
+    gap: 5px;
     padding: 15px 50px;
-    font-size: 14px;
-    color: var(--secondary-color);
+    font-size: 15px;
     font-family: var(--secondary-font);
+    background-color: #000;
+    color: var(--secondary-color);
 }
 
-.LinksFooter {
+.ContainerIcons {
     display: flex;
     gap: 25px;
     cursor: pointer;
 }
 
-.LinksFooter a {
+.ContainerIcons a {
     text-decoration: none;
     color: var(--secondary-color);
 
 }
 
-.LinksFooter a:hover {
+.ContainerIcons a:hover {
     color: var(--primary-color);
 }
 
@@ -37,7 +39,7 @@
         padding: 5px 5px;
     }
 
-    .LinksFooter {
+    .ContainerIcons {
         gap: 15px;
     }
 }

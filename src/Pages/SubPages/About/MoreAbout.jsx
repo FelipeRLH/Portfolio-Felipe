@@ -12,14 +12,12 @@ import pokeballBottom from "../../../Assets/About/MoreAbout/pokeballBottom.png"
 
 // CSS
 import styles from "./MoreAbout.module.css"
-
+import { ButtonReturn } from "../../../Components/StyledComponents/ButtonReturn.style";
 
 function MoreAbout() {
     return (
         <>
-            <div className={styles.BtnReturn}>
-                <Link to={"/"}><BsArrowReturnLeft />Voltar</Link>
-            </div>
+            <ButtonReturn><Link to={"/"}><BsArrowReturnLeft />Voltar</Link></ButtonReturn>
 
             <div className={styles.ContainerHome}>
                 <img className={styles.AvatarHi} src={avatarHiBack} alt="Avatar hi" />
